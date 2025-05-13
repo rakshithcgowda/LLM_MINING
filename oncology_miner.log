@@ -1,0 +1,1898 @@
+2025-05-10 10:37:47,238 - INFO - Initializing NLP model...
+2025-05-10 10:37:47,953 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 10:37:47,954 - INFO - Using cache directory: ./data_cache
+2025-05-10 10:37:47,955 - INFO - 
+==================================================
+2025-05-10 10:37:47,955 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 10:37:47,956 - INFO - ==================================================
+2025-05-10 10:37:47,957 - INFO - 
+==================================================
+2025-05-10 10:37:47,957 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 10:37:47,957 - INFO - ==================================================
+2025-05-10 10:37:47,957 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 10:37:47,958 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 10:37:47,958 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 10:37:47,959 - ERROR - Fatal error in pipeline execution: first argument must be string or compiled pattern
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1084, in <module>
+    miner = OncologyLiteratureMiner()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 910, in __init__
+    self.extractor = RelationshipExtractor(self.processor)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 491, in __init__
+    self.relationship_patterns = self._init_relationship_patterns()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 527, in _init_relationship_patterns
+    compiled_patterns[rel_type] = [
+                                  ^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 528, in <listcomp>
+    (pattern[0], re.compile(pattern[1]))
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 286, in _compile
+    raise TypeError("first argument must be string or compiled pattern")
+TypeError: first argument must be string or compiled pattern
+2025-05-10 10:38:18,015 - INFO - Initializing NLP model...
+2025-05-10 10:38:18,667 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 10:38:18,668 - INFO - Using cache directory: ./data_cache
+2025-05-10 10:38:18,669 - INFO - 
+==================================================
+2025-05-10 10:38:18,669 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 10:38:18,670 - INFO - ==================================================
+2025-05-10 10:38:18,671 - INFO - 
+==================================================
+2025-05-10 10:38:18,671 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 10:38:18,671 - INFO - ==================================================
+2025-05-10 10:38:18,672 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 10:38:18,672 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 10:38:18,672 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 10:38:18,673 - ERROR - Fatal error in pipeline execution: first argument must be string or compiled pattern
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1084, in <module>
+    miner = OncologyLiteratureMiner()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 910, in __init__
+    self.extractor = RelationshipExtractor(self.processor)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 491, in __init__
+    self.relationship_patterns = self._init_relationship_patterns()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 527, in _init_relationship_patterns
+    compiled_patterns[rel_type] = [
+                                  ^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 528, in <listcomp>
+    (pattern[0], re.compile(pattern[1]))
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 286, in _compile
+    raise TypeError("first argument must be string or compiled pattern")
+TypeError: first argument must be string or compiled pattern
+2025-05-10 10:56:23,494 - INFO - Initializing NLP model...
+2025-05-10 10:56:24,262 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 10:56:24,263 - INFO - Using cache directory: ./data_cache
+2025-05-10 10:56:24,263 - INFO - 
+==================================================
+2025-05-10 10:56:24,264 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 10:56:24,264 - INFO - ==================================================
+2025-05-10 10:56:24,265 - INFO - 
+==================================================
+2025-05-10 10:56:24,265 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 10:56:24,265 - INFO - ==================================================
+2025-05-10 10:56:24,265 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 10:56:24,266 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 10:56:24,266 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 10:56:24,267 - ERROR - Fatal error in pipeline execution: first argument must be string or compiled pattern
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1084, in <module>
+    miner = OncologyLiteratureMiner()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 910, in __init__
+    self.extractor = RelationshipExtractor(self.processor)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 491, in __init__
+    self.relationship_patterns = self._init_relationship_patterns()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 527, in _init_relationship_patterns
+    compiled_patterns[rel_type] = [
+                                  ^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 528, in <listcomp>
+    (pattern[0], re.compile(pattern[1]))
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 286, in _compile
+    raise TypeError("first argument must be string or compiled pattern")
+TypeError: first argument must be string or compiled pattern
+2025-05-10 10:57:42,861 - INFO - Initializing NLP model...
+2025-05-10 10:57:43,629 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 10:57:43,631 - INFO - Using cache directory: ./data_cache
+2025-05-10 10:57:43,631 - INFO - 
+==================================================
+2025-05-10 10:57:43,632 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 10:57:43,632 - INFO - ==================================================
+2025-05-10 10:57:43,632 - INFO - 
+==================================================
+2025-05-10 10:57:43,633 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 10:57:43,633 - INFO - ==================================================
+2025-05-10 10:57:43,633 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 10:57:43,634 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 10:57:43,634 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 10:57:43,634 - ERROR - Fatal error in pipeline execution: first argument must be string or compiled pattern
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1084, in <module>
+    miner = OncologyLiteratureMiner()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 910, in __init__
+    self.extractor = RelationshipExtractor(self.processor)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 491, in __init__
+    self.relationship_patterns = self._init_relationship_patterns()
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 527, in _init_relationship_patterns
+    compiled_patterns[rel_type] = [
+                                  ^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 528, in <listcomp>
+    (pattern[0], re.compile(pattern[1]))
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\re\__init__.py", line 286, in _compile
+    raise TypeError("first argument must be string or compiled pattern")
+TypeError: first argument must be string or compiled pattern
+2025-05-10 10:58:26,559 - INFO - Initializing NLP model...
+2025-05-10 10:58:27,267 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 10:58:27,268 - INFO - Using cache directory: ./data_cache
+2025-05-10 10:58:27,269 - INFO - 
+==================================================
+2025-05-10 10:58:27,269 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 10:58:27,270 - INFO - ==================================================
+2025-05-10 10:58:27,270 - INFO - 
+==================================================
+2025-05-10 10:58:27,270 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 10:58:27,271 - INFO - ==================================================
+2025-05-10 10:58:27,271 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 10:58:27,271 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 10:58:27,272 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 10:58:27,277 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 10:58:27,277 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 10:58:27,277 - INFO - Pipeline components initialized successfully.
+2025-05-10 10:58:27,278 - INFO - 
+==================================================
+2025-05-10 10:58:27,278 - INFO - Starting PubMed Pipeline
+2025-05-10 10:58:27,278 - INFO - ==================================================
+2025-05-10 10:58:27,279 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 10:58:27,279 - INFO - Maximum results requested: 500
+2025-05-10 10:58:28,892 - INFO - Found 500 articles. Fetching details...
+2025-05-10 10:58:29,140 - WARNING - Attempt 1 failed, retrying in 2 seconds...
+2025-05-10 10:58:29,878 - WARNING - Attempt 1 failed, retrying in 2 seconds...
+2025-05-10 10:58:30,161 - WARNING - Attempt 1 failed, retrying in 2 seconds...
+2025-05-10 10:58:31,797 - WARNING - Attempt 2 failed, retrying in 2 seconds...
+2025-05-10 10:58:32,549 - WARNING - Attempt 2 failed, retrying in 2 seconds...
+2025-05-10 10:58:32,812 - WARNING - Attempt 2 failed, retrying in 2 seconds...
+2025-05-10 10:58:34,456 - ERROR - Request failed after 3 attempts: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37245017%2C33812473%2C35642043%2C37270828%2C34019806%2C36483562%2C34985966%2C37704501%2C37895000%2C27117833%2C35029776%2C33125859%2C33507053%2C36284349%2C34735819%2C35877260%2C30395155%2C27413711%2C38791152%2C37574133%2C31807308%2C36156476%2C33690091%2C38343541%2C37324454%2C36046085%2C37649037%2C38647874%2C38501105%2C38898505%2C37820884%2C29770170%2C30718843%2C33125909%2C30546826%2C32309602%2C36980426%2C36016626%2C39228914%2C27013592%2C24534473%2C38835778%2C38872830%2C37979167%2C37175833%2C35093601%2C37291863%2C32206559%2C35568958%2C36797472%2C37301249%2C34944814%2C37675274%2C35878728%2C38947886%2C35453890%2C30348531%2C31093353%2C33329549%2C31487832%2C35693273%2C37559976%2C29601334%2C38476742%2C29948020%2C24361003%2C39170145%2C25241806%2C33322961%2C39669573%2C29501787%2C37638018%2C36688144%2C34188488%2C33996601%2C35321079%2C34967812%2C28751597%2C31450712%2C39434731%2C26609516%2C32791396%2C35764273%2C30631537%2C29285416%2C25091830%2C35320892%2C36502594%2C33095329%2C34192550%2C32386436%2C31502158%2C36702425%2C33839260%2C37693895%2C37069698%2C39081962%2C36316106%2C26358181%2C37584749%2C37370830%2C27340376%2C38342267%2C37677746%2C36908268%2C37121931%2C39862919%2C39616978%2C36835872%2C34765320%2C39267740%2C36915573%2C38090369%2C34629314%2C35681656%2C36793735%2C36852452%2C33940566%2C37980650%2C38352835%2C31573749%2C27471695%2C33958155%2C29942670%2C37668337%2C30528886%2C30194034%2C35327345%2C37444422%2C33163406%2C27596143%2C39026662%2C34972965%2C25723736%2C30505707%2C39579327%2C40181336%2C37323676%2C35265666%2C37717466%2C36873993%2C38689327%2C29569465%2C32601947%2C33097418%2C29322476%2C36034778%2C39822174%2C38797856%2C37222198%2C36439489%2C37434847%2C35551582%2C38496377%2C32582963%2C33092592%2C37719843%2C28823251%2C39454516%2C36650586%2C25093706%2C37121446%2C31978677%2C37238666%2C23421934%2C29343260%2C27141066%2C38856873%2C31838881%2C27916607%2C30558899%2C29329202%2C37680200%2C36860322%2C33268350%2C38906099%2C20723139%2C37351132%2C33023239%2C32301013%2C31102038%2C28919484%2C32337482%2C39308344%2C36941537%2C37064102%2C35898967%2C32747364%2C35153070%2C33127656%2C38063578%2C38898702%2C29137182%2C38863622%2C33264716%2C33171127%2C32217357%2C34358103%2C31499119%2C35127682&retmode=xml&api_key=
+2025-05-10 10:58:35,212 - ERROR - Request failed after 3 attempts: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=28862144%2C30233840%2C31897111%2C34982284%2C27895917%2C31453358%2C37685320%2C36345618%2C33182542%2C19791832%2C39164924%2C27279233%2C33337922%2C35147461%2C35911718%2C37282529%2C28514966%2C36048363%2C27891226%2C30253333%2C38473384%2C29258857%2C29393888%2C37928523%2C40311507%2C36384005%2C35053220%2C30256829%2C35887633%2C37631232%2C29338306%2C35345317%2C32140986%2C29099676%2C32648137%2C31138014%2C37894443%2C31671191%2C29081519%2C39702144%2C38179176%2C33572782%2C32133005%2C18385728%2C34353252%2C27480147%2C33193702%2C36639643%2C24624362%2C39415833%2C36742345%2C36678738%2C40134428%2C32665165%2C37908109%2C35912223%2C31744072%2C38149255%2C35330836%2C37206906%2C35486454%2C40124355%2C29751335%2C33912192%2C28231414%2C23519772%2C20477494%2C25557559%2C29398457%2C29203992%2C27800034%2C32457830%2C40007126%2C30102076%2C29329112%2C37153619%2C40204675%2C34757306%2C39430759%2C30271427%2C33380864%2C39279971%2C33312694%2C30349382%2C33153244%2C34062782%2C34900701%2C36290832%2C32475526%2C38656302%2C33209498%2C26257929%2C28363335%2C34539785%2C37259211%2C39439946%2C34902118%2C38711550%2C29730462%2C18559407%2C31762713%2C35747603%2C25443274%2C34277069%2C39532978%2C27623870%2C39004472%2C36139597%2C27532018%2C28714940%2C35551661%2C29021379%2C37430453%2C37342331%2C34120461%2C35998502%2C39883235%2C30662451%2C40109853%2C39009512%2C37599857%2C30501503%2C35820758%2C39619603%2C39263026%2C29781548%2C39120299%2C38861288%2C33160642%2C29589315%2C40010986%2C30025479%2C28418281%2C21929757%2C34668680%2C32750701%2C26927802%2C26925958%2C37248615%2C34470603%2C35055414%2C34655743%2C38067319%2C38596831%2C33260974%2C28467720%2C36692965%2C39073412%2C39347617%2C36090700%2C23496197%2C31983929%2C38672263%2C32923845%2C31622558%2C36630101%2C35607821%2C39577750%2C39015562%2C29125624%2C36695131%2C26408300%2C38730051%2C35384625%2C35545174%2C32500029%2C25185530%2C32508308%2C33853586%2C34945805%2C29914100%2C34967097%2C26838766%2C38536631%2C35603273%2C25910512%2C34209310%2C39727695%2C38424421%2C28932636%2C36943933%2C33364969%2C27016231%2C39375853%2C32553631%2C39420726%2C26456120%2C36345339%2C40070690%2C30505711%2C33076306%2C36007999%2C40208053%2C36191462%2C37622998%2C29767597%2C39980547%2C34388514%2C40051495%2C30514399&retmode=xml&api_key=
+2025-05-10 10:58:35,451 - ERROR - Request failed after 3 attempts: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38677737%2C32751469%2C31631684%2C37480527%2C39987883%2C38341126%2C27686597%2C23584378%2C35685442%2C27275492%2C38195018%2C27863911%2C33443454%2C31496730%2C37868079%2C39979067%2C39941712%2C39457498%2C31385523%2C28861770%2C36443443%2C26103891%2C38873826%2C35380719%2C39229469%2C34875200%2C34027103%2C20724177%2C32284441%2C38306015%2C29153898%2C32436923%2C39869008%2C28461564%2C29050243%2C31233742%2C38514084%2C37548439%2C39732132%2C32613323%2C31143629%2C40104697%2C37752543%2C33312158%2C34338007%2C33910278%2C25837857%2C31196372%2C38619111%2C35538767%2C36000459%2C40205008%2C39711461%2C40081944%2C34660664%2C40313257%2C36313549%2C39476162%2C38370368%2C31285907%2C40159145%2C33690968%2C27308632%2C36054996%2C29428415%2C39856676%2C38226288%2C38404964%2C27302920%2C39347608%2C25332967%2C34256907%2C27045102%2C35677433%2C32195359%2C40305280%2C36743521%2C37897832%2C30116594%2C28250045%2C39259000%2C20477713%2C30692101%2C29776208%2C40107241%2C40308330%2C24360658%2C40063607%2C21154137%2C21344471%2C29788644%2C40322690%2C37799595%2C24213505%2C22586314%2C22586313%2C31807495%2C26777068%2C27187383%2C39370715&retmode=xml&api_key=
+2025-05-10 10:58:35,454 - WARNING - No articles found or able to be processed.
+2025-05-10 10:58:51,191 - INFO - 
+==================================================
+2025-05-10 10:58:51,191 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 10:58:51,193 - INFO - ==================================================
+2025-05-10 10:58:51,194 - INFO - Querying ClinicalTrials.gov for: breast cancer
+2025-05-10 10:58:51,505 - WARNING - Attempt 1 failed, retrying in 2 seconds...
+2025-05-10 10:58:53,787 - WARNING - Attempt 2 failed, retrying in 2 seconds...
+2025-05-10 10:58:56,066 - ERROR - Request failed after 3 attempts: 404 Client Error: Not Found for url: https://clinicaltrials.gov/api/query/study_fields?expr=breast%2520cancer&fmt=json&min_rnk=1&max_rnk=100
+2025-05-10 10:58:56,068 - WARNING - No trials found matching criteria.
+2025-05-10 10:58:56,068 - INFO - 
+Saving results to files...
+2025-05-10 10:58:56,101 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 10:58:59,434 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 10:58:59,724 - ERROR - Error visualizing graph: Invalid edge_attr argument: No columns found with name: []
+2025-05-10 10:58:59,724 - INFO - 
+==================================================
+2025-05-10 10:58:59,724 - INFO - Pipeline completed successfully!
+2025-05-10 10:58:59,725 - INFO - ==================================================
+2025-05-10 11:10:28,275 - INFO - Initializing NLP model...
+2025-05-10 11:10:28,997 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 11:10:28,997 - INFO - Using cache directory: ./data_cache
+2025-05-10 11:10:28,997 - INFO - 
+==================================================
+2025-05-10 11:10:28,997 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 11:10:28,997 - INFO - ==================================================
+2025-05-10 11:10:28,997 - INFO - 
+==================================================
+2025-05-10 11:10:28,997 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 11:10:28,997 - INFO - ==================================================
+2025-05-10 11:10:28,997 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 11:10:28,997 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 11:10:28,997 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 11:10:28,997 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 11:10:28,997 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 11:10:28,997 - INFO - Pipeline components initialized successfully.
+2025-05-10 11:10:28,997 - INFO - 
+==================================================
+2025-05-10 11:10:28,997 - INFO - Starting PubMed Pipeline
+2025-05-10 11:10:28,997 - INFO - ==================================================
+2025-05-10 11:10:28,997 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 11:10:28,997 - INFO - Maximum results requested: 500
+2025-05-10 11:10:30,230 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 11:10:30,230 - WARNING - No articles found or able to be processed.
+2025-05-10 11:10:49,254 - INFO - 
+==================================================
+2025-05-10 11:10:49,254 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 11:10:49,254 - INFO - ==================================================
+2025-05-10 11:10:49,254 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1020, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 11:10:49,254 - INFO - 
+Saving results to files...
+2025-05-10 11:10:49,277 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 11:10:52,733 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 11:10:53,037 - ERROR - Error visualizing graph: Invalid edge_attr argument: No columns found with name: []
+2025-05-10 11:10:53,037 - INFO - 
+==================================================
+2025-05-10 11:10:53,037 - INFO - Pipeline completed successfully!
+2025-05-10 11:10:53,037 - INFO - ==================================================
+2025-05-10 11:44:57,583 - INFO - Initializing NLP model...
+2025-05-10 11:44:58,459 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 11:44:58,459 - INFO - Using cache directory: ./data_cache
+2025-05-10 11:44:58,459 - INFO - 
+==================================================
+2025-05-10 11:44:58,459 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 11:44:58,459 - INFO - ==================================================
+2025-05-10 11:44:58,459 - INFO - 
+==================================================
+2025-05-10 11:44:58,459 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 11:44:58,459 - INFO - ==================================================
+2025-05-10 11:44:58,459 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 11:44:58,459 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 11:44:58,459 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 11:44:58,459 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 11:44:58,459 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 11:44:58,459 - INFO - Pipeline components initialized successfully.
+2025-05-10 11:44:58,459 - INFO - 
+==================================================
+2025-05-10 11:44:58,459 - INFO - Starting PubMed Pipeline
+2025-05-10 11:44:58,459 - INFO - ==================================================
+2025-05-10 11:44:58,474 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 11:44:58,474 - INFO - Maximum results requested: 500
+2025-05-10 11:44:59,221 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 11:44:59,228 - WARNING - No articles found or able to be processed.
+2025-05-10 11:45:12,484 - INFO - 
+==================================================
+2025-05-10 11:45:12,484 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 11:45:12,484 - INFO - ==================================================
+2025-05-10 11:45:12,484 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1020, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 11:45:12,484 - INFO - 
+Saving results to files...
+2025-05-10 11:45:12,512 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 11:45:14,237 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 11:45:14,595 - ERROR - Error visualizing graph: Invalid edge_attr argument: No columns found with name: []
+2025-05-10 11:45:14,595 - INFO - 
+==================================================
+2025-05-10 11:45:14,595 - INFO - Pipeline completed successfully!
+2025-05-10 11:45:14,595 - INFO - ==================================================
+2025-05-10 12:10:34,475 - INFO - Initializing NLP model...
+2025-05-10 12:10:35,147 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:10:35,147 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:10:35,147 - INFO - 
+==================================================
+2025-05-10 12:10:35,147 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:10:35,147 - INFO - ==================================================
+2025-05-10 12:10:35,147 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 12:10:35,155 - ERROR - Fatal error in pipeline execution: 'LiteratureCollector' object has no attribute 'run_pubmed_pipeline'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 854, in <module>
+    miner.run_pubmed_pipeline(query=search_query, max_results=500)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'run_pubmed_pipeline'
+2025-05-10 12:11:15,154 - INFO - Initializing NLP model...
+2025-05-10 12:11:15,811 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:11:15,812 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:11:15,812 - INFO - 
+==================================================
+2025-05-10 12:11:15,812 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:11:15,812 - INFO - ==================================================
+2025-05-10 12:11:15,812 - INFO - 
+==================================================
+2025-05-10 12:11:15,812 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:11:15,812 - INFO - ==================================================
+2025-05-10 12:11:15,812 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 12:11:15,812 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:11:15,812 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:11:15,812 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:11:15,812 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:11:15,812 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:11:15,812 - INFO - 
+==================================================
+2025-05-10 12:11:15,812 - INFO - Starting PubMed Pipeline
+2025-05-10 12:11:15,812 - INFO - ==================================================
+2025-05-10 12:11:15,821 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 12:11:15,822 - INFO - Maximum results requested: 500
+2025-05-10 12:11:16,821 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:11:16,821 - WARNING - No articles found or able to be processed.
+2025-05-10 12:11:22,591 - INFO - 
+==================================================
+2025-05-10 12:11:22,591 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:11:22,591 - INFO - ==================================================
+2025-05-10 12:11:22,591 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1020, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:11:22,591 - INFO - 
+Saving results to files...
+2025-05-10 12:11:22,621 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:11:23,685 - INFO - 
+==================================================
+2025-05-10 12:11:23,685 - INFO - Pipeline completed successfully!
+2025-05-10 12:11:23,685 - INFO - ==================================================
+2025-05-10 12:11:37,368 - INFO - Initializing NLP model...
+2025-05-10 12:11:37,951 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:11:37,951 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:11:37,951 - INFO - 
+==================================================
+2025-05-10 12:11:37,951 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:11:37,951 - INFO - ==================================================
+2025-05-10 12:11:37,951 - INFO - 
+==================================================
+2025-05-10 12:11:37,951 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:11:37,951 - INFO - ==================================================
+2025-05-10 12:11:37,951 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 12:11:37,951 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:11:37,951 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:11:37,967 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:11:37,967 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:11:37,967 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:11:37,967 - INFO - 
+==================================================
+2025-05-10 12:11:37,967 - INFO - Starting PubMed Pipeline
+2025-05-10 12:11:37,967 - INFO - ==================================================
+2025-05-10 12:11:37,971 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 12:11:37,971 - INFO - Maximum results requested: 500
+2025-05-10 12:11:38,635 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:11:38,635 - WARNING - No articles found or able to be processed.
+2025-05-10 12:11:46,933 - INFO - 
+==================================================
+2025-05-10 12:11:46,933 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:11:46,933 - INFO - ==================================================
+2025-05-10 12:11:46,933 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1020, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:11:46,933 - INFO - 
+Saving results to files...
+2025-05-10 12:11:46,954 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:11:48,627 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 12:11:48,915 - ERROR - Error visualizing graph: Invalid edge_attr argument: No columns found with name: []
+2025-05-10 12:11:48,915 - INFO - 
+==================================================
+2025-05-10 12:11:48,915 - INFO - Pipeline completed successfully!
+2025-05-10 12:11:48,915 - INFO - ==================================================
+2025-05-10 12:20:37,201 - INFO - Initializing NLP model...
+2025-05-10 12:20:37,916 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:20:37,916 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:20:37,916 - INFO - 
+==================================================
+2025-05-10 12:20:37,916 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:20:37,916 - INFO - ==================================================
+2025-05-10 12:20:37,916 - INFO - 
+==================================================
+2025-05-10 12:20:37,916 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:20:37,916 - INFO - ==================================================
+2025-05-10 12:20:37,916 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 12:20:37,916 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:20:37,932 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:20:37,932 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:20:37,932 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:20:37,932 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:20:37,932 - INFO - 
+==================================================
+2025-05-10 12:20:37,932 - INFO - Starting PubMed Pipeline
+2025-05-10 12:20:37,932 - INFO - ==================================================
+2025-05-10 12:20:37,937 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 12:20:37,937 - INFO - Maximum results requested: 500
+2025-05-10 12:20:39,160 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:20:39,160 - WARNING - No articles found or able to be processed.
+2025-05-10 12:20:48,102 - INFO - 
+==================================================
+2025-05-10 12:20:48,102 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:20:48,102 - INFO - ==================================================
+2025-05-10 12:20:48,102 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1013, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:20:48,107 - INFO - 
+Saving results to files...
+2025-05-10 12:20:48,127 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:20:49,417 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 12:20:49,736 - ERROR - Error visualizing graph: Invalid edge_attr argument: No columns found with name: []
+2025-05-10 12:20:49,736 - INFO - 
+==================================================
+2025-05-10 12:20:49,736 - INFO - Pipeline completed successfully!
+2025-05-10 12:20:49,736 - INFO - ==================================================
+2025-05-10 12:21:38,388 - INFO - Initializing NLP model...
+2025-05-10 12:21:39,017 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:21:39,017 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:21:39,017 - INFO - 
+==================================================
+2025-05-10 12:21:39,025 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:21:39,025 - INFO - ==================================================
+2025-05-10 12:21:39,026 - INFO - 
+==================================================
+2025-05-10 12:21:39,026 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:21:39,026 - INFO - ==================================================
+2025-05-10 12:21:39,026 - INFO - LiteratureCollector initialized with API endpoints.
+2025-05-10 12:21:39,026 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:21:39,026 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:21:39,026 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:21:39,026 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:21:39,026 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:21:39,026 - INFO - 
+==================================================
+2025-05-10 12:21:39,026 - INFO - Starting PubMed Pipeline
+2025-05-10 12:21:39,026 - INFO - ==================================================
+2025-05-10 12:21:39,032 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 12:21:39,032 - INFO - Maximum results requested: 500
+2025-05-10 12:21:39,716 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:21:39,717 - WARNING - No articles found or able to be processed.
+2025-05-10 12:23:25,792 - INFO - Initializing NLP model...
+2025-05-10 12:23:26,527 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:23:26,527 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:23:26,527 - INFO - 
+==================================================
+2025-05-10 12:23:26,527 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:23:26,527 - INFO - ==================================================
+2025-05-10 12:23:26,527 - INFO - 
+==================================================
+2025-05-10 12:23:26,527 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:23:26,527 - INFO - ==================================================
+2025-05-10 12:23:26,527 - INFO - LiteratureCollector initialized.
+2025-05-10 12:23:26,527 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:23:26,527 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:23:26,527 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:23:26,527 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:23:26,527 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:23:26,536 - INFO - 
+==================================================
+2025-05-10 12:23:26,536 - INFO - Starting PubMed Pipeline
+2025-05-10 12:23:26,536 - INFO - ==================================================
+2025-05-10 12:23:26,537 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 12:23:26,537 - INFO - Maximum results requested: 500
+2025-05-10 12:23:27,241 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:23:27,241 - WARNING - No articles found or able to be processed.
+2025-05-10 12:24:19,787 - INFO - Initializing NLP model...
+2025-05-10 12:24:20,555 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:24:20,555 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:24:20,555 - INFO - 
+==================================================
+2025-05-10 12:24:20,555 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:24:20,555 - INFO - ==================================================
+2025-05-10 12:24:20,555 - INFO - 
+==================================================
+2025-05-10 12:24:20,555 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:24:20,555 - INFO - ==================================================
+2025-05-10 12:24:20,555 - ERROR - Fatal error in pipeline execution: bad operand type for unary -: 'str'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1111, in <module>
+    miner = OncologyLiteratureMiner()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 935, in __init__
+    self.collector = LiteratureCollector()
+                     ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 66, in __init__
+    -   'clinical_trials': "https://clinicaltrials.gov/api/query/",
+    ^^^^^^^^^^^^^^^^^^^^^
+TypeError: bad operand type for unary -: 'str'
+2025-05-10 12:25:06,337 - INFO - Initializing NLP model...
+2025-05-10 12:25:06,968 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:25:06,970 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:25:06,970 - INFO - 
+==================================================
+2025-05-10 12:25:06,972 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:25:06,972 - INFO - ==================================================
+2025-05-10 12:25:06,972 - INFO - 
+==================================================
+2025-05-10 12:25:06,972 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:25:06,972 - INFO - ==================================================
+2025-05-10 12:25:06,972 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:25:06,972 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:25:06,976 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:25:06,976 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:25:06,978 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:25:06,978 - INFO - 
+==================================================
+2025-05-10 12:25:06,978 - INFO - Starting PubMed Pipeline
+2025-05-10 12:25:06,979 - INFO - ==================================================
+2025-05-10 12:25:06,979 - ERROR - Fatal error in PubMed pipeline: 'LiteratureCollector' object has no attribute 'search_pubmed'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 955, in run_pubmed_pipeline
+    articles = self.collector.search_pubmed(query, max_results)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_pubmed'
+2025-05-10 12:25:43,633 - INFO - 
+==================================================
+2025-05-10 12:25:43,633 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:25:43,633 - INFO - ==================================================
+2025-05-10 12:25:43,633 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1012, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:25:43,633 - INFO - 
+Saving results to files...
+2025-05-10 12:25:43,662 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:25:49,734 - INFO - 
+==================================================
+2025-05-10 12:25:49,734 - INFO - Pipeline completed successfully!
+2025-05-10 12:25:49,734 - INFO - ==================================================
+2025-05-10 12:26:02,617 - INFO - Initializing NLP model...
+2025-05-10 12:26:03,176 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:26:03,192 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:26:03,192 - INFO - 
+==================================================
+2025-05-10 12:26:03,192 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:26:03,192 - INFO - ==================================================
+2025-05-10 12:26:03,192 - INFO - 
+==================================================
+2025-05-10 12:26:03,192 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:26:03,192 - INFO - ==================================================
+2025-05-10 12:26:03,192 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:26:03,192 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:26:03,192 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:26:03,192 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:26:03,192 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:26:03,192 - INFO - 
+==================================================
+2025-05-10 12:26:03,192 - INFO - Starting PubMed Pipeline
+2025-05-10 12:26:03,192 - INFO - ==================================================
+2025-05-10 12:26:03,202 - ERROR - Fatal error in PubMed pipeline: 'LiteratureCollector' object has no attribute 'search_pubmed'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 955, in run_pubmed_pipeline
+    articles = self.collector.search_pubmed(query, max_results)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_pubmed'
+2025-05-10 12:26:10,548 - INFO - 
+==================================================
+2025-05-10 12:26:10,548 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:26:10,548 - INFO - ==================================================
+2025-05-10 12:26:10,548 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1012, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:26:10,548 - INFO - 
+Saving results to files...
+2025-05-10 12:26:10,573 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:26:11,736 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 12:26:11,997 - ERROR - Error visualizing graph: Invalid edge_attr argument: No columns found with name: []
+2025-05-10 12:26:11,997 - INFO - 
+==================================================
+2025-05-10 12:26:11,997 - INFO - Pipeline completed successfully!
+2025-05-10 12:26:11,997 - INFO - ==================================================
+2025-05-10 12:26:20,227 - INFO - Initializing NLP model...
+2025-05-10 12:26:20,847 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:26:20,848 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:26:20,849 - INFO - 
+==================================================
+2025-05-10 12:26:20,850 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:26:20,850 - INFO - ==================================================
+2025-05-10 12:26:20,851 - INFO - 
+==================================================
+2025-05-10 12:26:20,851 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:26:20,851 - INFO - ==================================================
+2025-05-10 12:26:20,851 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:26:20,851 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:26:20,855 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:26:20,855 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:26:20,855 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:26:20,856 - INFO - 
+==================================================
+2025-05-10 12:26:20,856 - INFO - Starting PubMed Pipeline
+2025-05-10 12:26:20,856 - INFO - ==================================================
+2025-05-10 12:26:20,857 - ERROR - Fatal error in PubMed pipeline: 'LiteratureCollector' object has no attribute 'search_pubmed'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 955, in run_pubmed_pipeline
+    articles = self.collector.search_pubmed(query, max_results)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_pubmed'
+2025-05-10 12:28:20,610 - INFO - 
+Saving results to files...
+2025-05-10 12:28:20,628 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:28:24,253 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 12:28:24,432 - ERROR - Error visualizing graph: Invalid edge_attr argument: No columns found with name: []
+2025-05-10 12:28:24,432 - INFO - 
+==================================================
+2025-05-10 12:28:24,433 - INFO - Pipeline completed successfully!
+2025-05-10 12:28:24,433 - INFO - ==================================================
+2025-05-10 12:28:29,206 - INFO - Initializing NLP model...
+2025-05-10 12:28:29,809 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:28:29,809 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:28:29,809 - INFO - 
+==================================================
+2025-05-10 12:28:29,809 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:28:29,809 - INFO - ==================================================
+2025-05-10 12:28:29,809 - INFO - 
+==================================================
+2025-05-10 12:28:29,809 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:28:29,809 - INFO - ==================================================
+2025-05-10 12:28:29,809 - INFO - LiteratureCollector initialized.
+2025-05-10 12:28:29,809 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:28:29,809 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:28:29,819 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:28:29,819 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:28:29,819 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:28:29,820 - INFO - 
+==================================================
+2025-05-10 12:28:29,820 - INFO - Starting PubMed Pipeline
+2025-05-10 12:28:29,820 - INFO - ==================================================
+2025-05-10 12:28:29,821 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 12:28:29,821 - INFO - Maximum results requested: 500
+2025-05-10 12:28:30,784 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:28:30,784 - WARNING - No articles found or able to be processed.
+2025-05-10 12:28:38,573 - INFO - 
+==================================================
+2025-05-10 12:28:38,573 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:28:38,573 - INFO - ==================================================
+2025-05-10 12:28:38,573 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 1012, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:28:38,585 - INFO - 
+Saving results to files...
+2025-05-10 12:28:38,585 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:28:39,709 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 12:28:39,872 - ERROR - Error visualizing graph: Invalid edge_attr argument: No columns found with name: []
+2025-05-10 12:28:39,872 - INFO - 
+==================================================
+2025-05-10 12:28:39,872 - INFO - Pipeline completed successfully!
+2025-05-10 12:28:39,872 - INFO - ==================================================
+2025-05-10 12:29:00,857 - INFO - Initializing NLP model...
+2025-05-10 12:29:01,457 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:29:01,457 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:29:01,457 - INFO - 
+==================================================
+2025-05-10 12:29:01,457 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:29:01,457 - INFO - ==================================================
+2025-05-10 12:29:01,457 - INFO - 
+==================================================
+2025-05-10 12:29:01,457 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:29:01,457 - INFO - ==================================================
+2025-05-10 12:29:01,457 - INFO - LiteratureCollector initialized.
+2025-05-10 12:29:01,457 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:29:01,457 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:29:01,467 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:29:01,467 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:29:01,468 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:29:01,468 - INFO - 
+==================================================
+2025-05-10 12:29:01,468 - INFO - Starting PubMed Pipeline
+2025-05-10 12:29:01,469 - INFO - ==================================================
+2025-05-10 12:29:01,469 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND (biomarker OR biomarker)'
+2025-05-10 12:29:01,470 - INFO - Maximum results requested: 500
+2025-05-10 12:29:02,110 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+%28biomarker+OR+biomarker%29&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:29:02,110 - WARNING - No articles found or able to be processed.
+2025-05-10 12:32:42,632 - INFO - Initializing NLP model...
+2025-05-10 12:32:43,221 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:32:43,221 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:32:43,221 - INFO - 
+==================================================
+2025-05-10 12:32:43,221 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:32:43,221 - INFO - ==================================================
+2025-05-10 12:32:43,221 - INFO - 
+==================================================
+2025-05-10 12:32:43,221 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:32:43,221 - INFO - ==================================================
+2025-05-10 12:32:43,221 - INFO - LiteratureCollector initialized.
+2025-05-10 12:32:43,221 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:32:43,221 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:32:43,238 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:32:43,238 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:32:43,239 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:32:43,240 - INFO - 
+==================================================
+2025-05-10 12:32:43,240 - INFO - Starting PubMed Pipeline
+2025-05-10 12:32:43,240 - INFO - ==================================================
+2025-05-10 12:32:43,241 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND biomarker'
+2025-05-10 12:32:43,241 - INFO - Maximum results requested: 500
+2025-05-10 12:32:43,913 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+biomarker&retmax=500&retmode=json&sort=relevance&field=title%2Fabstract&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:32:43,913 - WARNING - No articles found or able to be processed.
+2025-05-10 12:33:44,553 - INFO - Initializing NLP model...
+2025-05-10 12:33:45,165 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:33:45,165 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:33:45,165 - INFO - 
+==================================================
+2025-05-10 12:33:45,165 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:33:45,165 - INFO - ==================================================
+2025-05-10 12:33:45,165 - INFO - 
+==================================================
+2025-05-10 12:33:45,165 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:33:45,165 - INFO - ==================================================
+2025-05-10 12:33:45,165 - INFO - LiteratureCollector initialized.
+2025-05-10 12:33:45,165 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:33:45,165 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:33:45,185 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:33:45,185 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:33:45,185 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:33:45,186 - INFO - 
+==================================================
+2025-05-10 12:33:45,186 - INFO - Starting PubMed Pipeline
+2025-05-10 12:33:45,186 - INFO - ==================================================
+2025-05-10 12:33:45,187 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND biomarker'
+2025-05-10 12:33:45,187 - INFO - Maximum results requested: 500
+2025-05-10 12:33:46,060 - ERROR - PubMed search failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+biomarker&retmax=500&retmode=json&sort=relevance&mindate=2010%2F01%2F01&api_key=
+2025-05-10 12:33:46,060 - WARNING - No articles found or able to be processed.
+2025-05-10 12:35:00,522 - INFO - Initializing NLP model...
+2025-05-10 12:35:01,176 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:35:01,177 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:35:01,178 - INFO - 
+==================================================
+2025-05-10 12:35:01,178 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:35:01,178 - INFO - ==================================================
+2025-05-10 12:35:01,179 - INFO - 
+==================================================
+2025-05-10 12:35:01,179 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:35:01,179 - INFO - ==================================================
+2025-05-10 12:35:01,180 - INFO - LiteratureCollector initialized.
+2025-05-10 12:35:01,180 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:35:01,181 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:35:01,186 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:35:01,186 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:35:01,187 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:35:01,187 - INFO - 
+==================================================
+2025-05-10 12:35:01,187 - INFO - Starting PubMed Pipeline
+2025-05-10 12:35:01,188 - INFO - ==================================================
+2025-05-10 12:35:01,188 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND biomarker'
+2025-05-10 12:35:01,189 - INFO - Maximum results requested: 500
+2025-05-10 12:35:01,189 - ERROR - PubMed search failed: cannot access local variable 'search_params' where it is not associated with a value
+2025-05-10 12:35:01,189 - WARNING - No articles found or able to be processed.
+2025-05-10 12:36:18,763 - INFO - Initializing NLP model...
+2025-05-10 12:36:19,356 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:36:19,356 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:36:19,356 - INFO - 
+==================================================
+2025-05-10 12:36:19,356 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:36:19,356 - INFO - ==================================================
+2025-05-10 12:36:19,356 - INFO - 
+==================================================
+2025-05-10 12:36:19,356 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:36:19,356 - INFO - ==================================================
+2025-05-10 12:36:19,356 - INFO - LiteratureCollector initialized.
+2025-05-10 12:36:19,356 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:36:19,356 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:36:19,356 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:36:19,356 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:36:19,356 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:36:19,356 - INFO - 
+==================================================
+2025-05-10 12:36:19,356 - INFO - Starting PubMed Pipeline
+2025-05-10 12:36:19,356 - INFO - ==================================================
+2025-05-10 12:36:19,366 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy) AND biomarker'
+2025-05-10 12:36:25,367 - ERROR - Request failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+AND+%28immunotherapy+OR+targeted+therapy%29+AND+biomarker&retmax=500&retmode=json&api_key=
+2025-05-10 12:36:25,367 - ERROR - PubMed search request failed
+2025-05-10 12:36:25,367 - WARNING - No articles found or able to be processed.
+2025-05-10 12:37:21,872 - INFO - Initializing NLP model...
+2025-05-10 12:37:22,461 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:37:22,477 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:37:22,477 - INFO - 
+==================================================
+2025-05-10 12:37:22,477 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:37:22,477 - INFO - ==================================================
+2025-05-10 12:37:22,477 - INFO - 
+==================================================
+2025-05-10 12:37:22,477 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:37:22,477 - INFO - ==================================================
+2025-05-10 12:37:22,477 - INFO - LiteratureCollector initialized.
+2025-05-10 12:37:22,477 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:37:22,477 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:37:22,477 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:37:22,477 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:37:22,477 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:37:22,477 - INFO - 
+==================================================
+2025-05-10 12:37:22,477 - INFO - Starting PubMed Pipeline
+2025-05-10 12:37:22,477 - INFO - ==================================================
+2025-05-10 12:37:22,486 - INFO - Searching PubMed for: 'cancer immunotherapy targeted therapy biomarker'
+2025-05-10 12:37:29,085 - ERROR - Request failed: 400 Client Error: Bad Request for url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=cancer+immunotherapy+targeted+therapy+biomarker&retmax=500&retmode=json&api_key=
+2025-05-10 12:37:29,085 - ERROR - PubMed search request failed
+2025-05-10 12:37:29,085 - WARNING - No articles found or able to be processed.
+2025-05-10 12:40:03,054 - INFO - Initializing NLP model...
+2025-05-10 12:40:03,702 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:40:03,703 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:40:03,703 - INFO - 
+==================================================
+2025-05-10 12:40:03,703 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:40:03,703 - INFO - ==================================================
+2025-05-10 12:40:03,703 - INFO - 
+==================================================
+2025-05-10 12:40:03,703 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:40:03,703 - INFO - ==================================================
+2025-05-10 12:40:03,703 - INFO - LiteratureCollector initialized.
+2025-05-10 12:40:03,703 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:40:03,703 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:40:03,708 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:40:03,708 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:40:03,708 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:40:03,708 - INFO - 
+==================================================
+2025-05-10 12:40:03,710 - INFO - Starting PubMed Pipeline
+2025-05-10 12:40:03,710 - INFO - ==================================================
+2025-05-10 12:40:03,711 - INFO - Searching PubMed for: 'cancer immunotherapy targeted therapy biomarker'
+2025-05-10 12:40:05,220 - INFO - Found 500 articles. Fetching details...
+2025-05-10 12:40:15,547 - INFO - Cached 500 articles to ./data_cache\pubmed_368912802495375602.json
+2025-05-10 12:40:15,554 - INFO - 
+Processing 500 articles...
+2025-05-10 12:40:15,595 - INFO - Processing article 1/500: Circular RNA, A Molecule with Potential Chemistry ...
+2025-05-10 12:40:19,934 - INFO - Processing article 101/500: [Chemotherapy, targeted therapy and immunotherapy ...
+2025-05-10 12:40:23,858 - INFO - Processing article 201/500: Antibody-drug conjugates in breast cancer treatmen...
+2025-05-10 12:40:27,691 - INFO - Processing article 301/500: Health-related quality of life with belzutifan ver...
+2025-05-10 12:40:31,543 - INFO - Processing article 401/500: AWT020: a novel fusion protein harnessing PD-1 blo...
+2025-05-10 12:40:35,018 - INFO - 
+Knowledge graph built with 58 nodes and 256 edges.
+2025-05-10 12:40:45,352 - INFO - 
+==================================================
+2025-05-10 12:40:45,352 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:40:45,352 - INFO - ==================================================
+2025-05-10 12:40:45,352 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 970, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:40:45,352 - INFO - 
+Saving results to files...
+2025-05-10 12:40:45,403 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:40:48,159 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 12:41:39,426 - INFO - 
+==================================================
+2025-05-10 12:41:39,426 - INFO - Pipeline completed successfully!
+2025-05-10 12:41:39,426 - INFO - ==================================================
+2025-05-10 12:49:46,541 - INFO - Initializing NLP model...
+2025-05-10 12:49:47,474 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:49:47,474 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:49:47,474 - INFO - 
+==================================================
+2025-05-10 12:49:47,474 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:49:47,474 - INFO - ==================================================
+2025-05-10 12:49:47,474 - INFO - 
+==================================================
+2025-05-10 12:49:47,482 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:49:47,482 - INFO - ==================================================
+2025-05-10 12:49:47,482 - INFO - LiteratureCollector initialized.
+2025-05-10 12:49:47,482 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:49:47,482 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:49:47,487 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:49:47,487 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:49:47,487 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:49:47,487 - INFO - 
+==================================================
+2025-05-10 12:49:47,488 - INFO - Starting PubMed Pipeline
+2025-05-10 12:49:47,488 - INFO - ==================================================
+2025-05-10 12:49:47,488 - INFO - Searching PubMed for: 'cancer immunotherapy targeted therapy biomarker'
+2025-05-10 12:49:49,958 - INFO - Found 500 articles. Fetching details...
+2025-05-10 12:49:59,787 - INFO - Cached 500 articles to ./data_cache\pubmed_-9147430982797792988.json
+2025-05-10 12:49:59,793 - INFO - 
+Processing 500 articles...
+2025-05-10 12:49:59,805 - INFO - Processing article 1/500: Circular RNA, A Molecule with Potential Chemistry ...
+2025-05-10 12:50:05,302 - INFO - Processing article 101/500: [Chemotherapy, targeted therapy and immunotherapy ...
+2025-05-10 12:50:10,324 - INFO - Processing article 201/500: Antibody-drug conjugates in breast cancer treatmen...
+2025-05-10 12:50:15,145 - INFO - Processing article 301/500: Health-related quality of life with belzutifan ver...
+2025-05-10 12:50:19,950 - INFO - Processing article 401/500: AWT020: a novel fusion protein harnessing PD-1 blo...
+2025-05-10 12:50:24,433 - INFO - 
+Knowledge graph built with 58 nodes and 256 edges.
+2025-05-10 12:50:46,435 - INFO - 
+==================================================
+2025-05-10 12:50:46,435 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:50:46,435 - INFO - ==================================================
+2025-05-10 12:50:46,451 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 970, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:50:46,451 - INFO - 
+Saving results to files...
+2025-05-10 12:50:46,499 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:50:48,147 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 12:51:25,106 - INFO - 
+==================================================
+2025-05-10 12:51:25,110 - INFO - Pipeline completed successfully!
+2025-05-10 12:51:25,110 - INFO - ==================================================
+2025-05-10 12:52:46,476 - INFO - Initializing NLP model...
+2025-05-10 12:52:47,287 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 12:52:47,287 - INFO - Using cache directory: ./data_cache
+2025-05-10 12:52:47,287 - INFO - 
+==================================================
+2025-05-10 12:52:47,287 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 12:52:47,287 - INFO - ==================================================
+2025-05-10 12:52:47,287 - INFO - 
+==================================================
+2025-05-10 12:52:47,287 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 12:52:47,287 - INFO - ==================================================
+2025-05-10 12:52:47,287 - INFO - LiteratureCollector initialized.
+2025-05-10 12:52:47,287 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 12:52:47,287 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 12:52:47,287 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 12:52:47,287 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 12:52:47,287 - INFO - Pipeline components initialized successfully.
+2025-05-10 12:52:47,287 - INFO - 
+==================================================
+2025-05-10 12:52:47,287 - INFO - Starting PubMed Pipeline
+2025-05-10 12:52:47,287 - INFO - ==================================================
+2025-05-10 12:52:47,287 - INFO - Searching PubMed for: 'cancer immunotherapy targeted therapy biomarker'
+2025-05-10 12:52:48,270 - INFO - Found 500 articles. Fetching details...
+2025-05-10 12:52:58,205 - INFO - Cached 500 articles to ./data_cache\pubmed_-8029337901723515129.json
+2025-05-10 12:52:58,216 - INFO - 
+Processing 500 articles...
+2025-05-10 12:52:58,235 - INFO - Processing article 1/500: Circular RNA, A Molecule with Potential Chemistry ...
+2025-05-10 12:53:04,194 - INFO - Processing article 101/500: [Chemotherapy, targeted therapy and immunotherapy ...
+2025-05-10 12:53:08,219 - INFO - Processing article 201/500: Antibody-drug conjugates in breast cancer treatmen...
+2025-05-10 12:53:12,194 - INFO - Processing article 301/500: Health-related quality of life with belzutifan ver...
+2025-05-10 12:53:16,144 - INFO - Processing article 401/500: AWT020: a novel fusion protein harnessing PD-1 blo...
+2025-05-10 12:53:19,686 - INFO - 
+Knowledge graph built with 58 nodes and 256 edges.
+2025-05-10 12:54:13,108 - INFO - 
+==================================================
+2025-05-10 12:54:13,108 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 12:54:13,108 - INFO - ==================================================
+2025-05-10 12:54:13,108 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\onc_llm.py", line 970, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 12:54:13,108 - INFO - 
+Saving results to files...
+2025-05-10 12:54:13,164 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 12:54:17,025 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 12:55:43,724 - INFO - 
+==================================================
+2025-05-10 12:55:43,725 - INFO - Pipeline completed successfully!
+2025-05-10 12:55:43,725 - INFO - ==================================================
+2025-05-10 14:08:36,228 - INFO - Initializing NLP model...
+2025-05-10 14:08:36,910 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 14:08:36,910 - INFO - Using cache directory: ./data_cache
+2025-05-10 14:08:36,910 - INFO - Initializing NLP model...
+2025-05-10 14:08:37,444 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 14:08:37,444 - INFO - Using cache directory: ./data_cache
+2025-05-10 14:08:37,444 - INFO - 
+==================================================
+2025-05-10 14:08:37,444 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 14:08:37,444 - INFO - ==================================================
+2025-05-10 14:08:37,444 - INFO - 
+==================================================
+2025-05-10 14:08:37,444 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 14:08:37,444 - INFO - ==================================================
+2025-05-10 14:08:37,444 - INFO - LiteratureCollector initialized.
+2025-05-10 14:08:37,444 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 14:08:37,444 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 14:08:37,453 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 14:08:37,455 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 14:08:37,455 - INFO - Pipeline components initialized successfully.
+2025-05-10 14:08:37,455 - INFO - 
+==================================================
+2025-05-10 14:08:37,456 - INFO - Starting PubMed Pipeline
+2025-05-10 14:08:37,456 - INFO - ==================================================
+2025-05-10 14:08:37,456 - INFO - Searching PubMed for: '("pembrolizumab"[Title/Abstract] OR "nivolumab"[Title/Abstract]) AND ("PD-L1"[Title/Abstract]) AND ("non-small cell lung cancer"[Title/Abstract]) AND ("2020/01/01"[Date - Publication] : "2023/12/31"[Date - Publication])'
+2025-05-10 14:08:38,577 - INFO - Found 500 articles. Fetching details...
+2025-05-10 14:08:47,325 - INFO - Cached 499 articles to ./data_cache\pubmed_-3072758318793323570.json
+2025-05-10 14:08:47,325 - INFO - 
+Processing 499 articles...
+2025-05-10 14:08:47,343 - INFO - Processing article 1/499: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum ...
+2025-05-10 14:08:51,777 - INFO - Processing article 101/499: Differential treatment responses to immune checkpo...
+2025-05-10 14:08:55,783 - INFO - Processing article 201/499: Preclinical Studies of a Novel Human PD-1 B-Cell P...
+2025-05-10 14:08:59,626 - INFO - Processing article 301/499: For which lung cancer patients is re-administratio...
+2025-05-10 14:09:03,655 - INFO - Processing article 401/499: Differential influence of antibiotic therapy and o...
+2025-05-10 14:09:08,799 - INFO - 
+Knowledge graph built with 57 nodes and 241 edges.
+2025-05-10 14:09:08,799 - INFO - 
+==================================================
+2025-05-10 14:09:08,799 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 14:09:08,799 - INFO - ==================================================
+2025-05-10 14:09:08,799 - INFO - Querying ClinicalTrials.gov for: non-small cell lung cancer
+2025-05-10 14:09:10,267 - INFO - Cached 100 trials
+2025-05-10 14:09:10,273 - INFO - 
+Processing 100 trials...
+2025-05-10 14:09:10,273 - INFO - Processing trial 1/100: Long-Term Follow-Up Study of Patients Receiving AT...
+2025-05-10 14:09:10,718 - INFO - Processing trial 21/100: SinTilimab After Radiation (STAR Study)...
+2025-05-10 14:09:11,125 - INFO - Processing trial 41/100: GRN-1201 With Pembrolizumab in Subjects With Metas...
+2025-05-10 14:09:11,531 - INFO - Processing trial 61/100: Apricity CARE to Improve ICI Outcomes of Ethnic/Ra...
+2025-05-10 14:09:12,048 - INFO - Processing trial 81/100: Targeting ODC as an Immunotherapeutic Target in ST...
+2025-05-10 14:09:12,450 - INFO - 
+Knowledge graph now has 60 nodes and 268 edges.
+2025-05-10 14:09:12,450 - INFO - 
+==================================================
+2025-05-10 14:09:12,450 - INFO - Starting Patents Pipeline
+2025-05-10 14:09:12,450 - INFO - ==================================================
+2025-05-10 14:09:12,461 - INFO - Searching Google Patents for: cancer immunotherapy PD-L1
+2025-05-10 14:09:12,839 - ERROR - Error accessing Google Patents API: 404 Client Error: Not Found for url: https://patents.googleapis.com/v1/patents:search?query=cancer+immunotherapy+PD-L1&pageSize=50&key=
+2025-05-10 14:09:12,839 - WARNING - No patents found matching criteria.
+2025-05-10 14:09:12,839 - INFO - 
+Analyzing knowledge graph...
+2025-05-10 14:09:12,868 - INFO - 
+Network Metrics:
+2025-05-10 14:09:12,869 - INFO - - Nodes: 60
+2025-05-10 14:09:12,869 - INFO - - Edges: 264
+2025-05-10 14:09:12,869 - INFO - - Density: 0.0746
+2025-05-10 14:09:12,869 - INFO - 
+Top Nodes by Degree Centrality:
+2025-05-10 14:09:12,870 - INFO -   pembrolizumab: 0.508
+2025-05-10 14:09:12,870 - INFO -   MET: 0.475
+2025-05-10 14:09:12,870 - INFO -   nivolumab: 0.390
+2025-05-10 14:09:12,871 - INFO -   lung cancer: 0.322
+2025-05-10 14:09:12,871 - INFO -   ER: 0.322
+2025-05-10 14:09:12,871 - INFO -   ipilimumab: 0.305
+2025-05-10 14:09:12,871 - INFO -   AR: 0.305
+2025-05-10 14:09:12,872 - INFO -   PR: 0.305
+2025-05-10 14:09:12,872 - INFO -   non-small cell lung cancer: 0.288
+2025-05-10 14:09:12,872 - INFO -   PD-L1: 0.288
+2025-05-10 14:09:12,873 - INFO - 
+Top Nodes by Betweenness Centrality:
+2025-05-10 14:09:12,873 - INFO -   MET: 0.052
+2025-05-10 14:09:12,873 - INFO -   pembrolizumab: 0.044
+2025-05-10 14:09:12,873 - INFO -   nivolumab: 0.012
+2025-05-10 14:09:12,874 - INFO -   lung cancer: 0.010
+2025-05-10 14:09:12,874 - INFO -   EGFR: 0.006
+2025-05-10 14:09:12,874 - INFO -   HER2: 0.006
+2025-05-10 14:09:12,874 - INFO -   ALK: 0.003
+2025-05-10 14:09:12,874 - INFO -   ipilimumab: 0.002
+2025-05-10 14:09:12,874 - INFO -   docetaxel: 0.002
+2025-05-10 14:09:12,875 - INFO -   KRAS: 0.002
+2025-05-10 14:09:12,875 - INFO - 
+Saving results to files...
+2025-05-10 14:09:12,914 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 14:09:12,926 - INFO - Graph saved to GEXF format: ./output\oncology_graph.gexf
+2025-05-10 14:09:12,926 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 14:10:26,749 - INFO - 
+==================================================
+2025-05-10 14:10:26,749 - INFO - Pipeline completed successfully!
+2025-05-10 14:10:26,749 - INFO - ==================================================
+2025-05-10 14:35:28,126 - INFO - Initializing NLP model...
+2025-05-10 14:35:28,944 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 14:35:28,944 - INFO - Using cache directory: ./data_cache
+2025-05-10 14:35:28,954 - INFO - 
+==================================================
+2025-05-10 14:35:28,954 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 14:35:28,954 - INFO - ==================================================
+2025-05-10 14:35:28,954 - INFO - 
+==================================================
+2025-05-10 14:35:28,954 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 14:35:28,954 - INFO - ==================================================
+2025-05-10 14:35:28,954 - INFO - LiteratureCollector initialized.
+2025-05-10 14:35:28,954 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 14:35:28,954 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 14:35:28,954 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 14:35:28,954 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 14:35:28,954 - INFO - Pipeline components initialized successfully.
+2025-05-10 14:35:28,954 - INFO - 
+==================================================
+2025-05-10 14:35:28,954 - INFO - Starting PubMed Pipeline
+2025-05-10 14:35:28,954 - INFO - ==================================================
+2025-05-10 14:35:28,961 - INFO - Searching PubMed for: 'cancer immunotherapy targeted therapy biomarker'
+2025-05-10 14:35:30,685 - INFO - Found 500 articles. Fetching details...
+2025-05-10 14:35:57,345 - INFO - Cached 500 articles to ./data_cache\pubmed_-9221733285262877093.json
+2025-05-10 14:35:57,359 - INFO - 
+Processing 500 articles...
+2025-05-10 14:35:57,386 - INFO - Processing article 1/500: Circular RNA, A Molecule with Potential Chemistry ...
+2025-05-10 14:36:02,210 - INFO - Processing article 101/500: [Chemotherapy, targeted therapy and immunotherapy ...
+2025-05-10 14:36:06,225 - INFO - Processing article 201/500: Antibody-drug conjugates in breast cancer treatmen...
+2025-05-10 14:36:10,066 - INFO - Processing article 301/500: Health-related quality of life with belzutifan ver...
+2025-05-10 14:36:14,127 - INFO - Processing article 401/500: AWT020: a novel fusion protein harnessing PD-1 blo...
+2025-05-10 14:36:17,940 - INFO - 
+Knowledge graph built with 58 nodes and 256 edges.
+2025-05-10 14:36:40,627 - INFO - 
+==================================================
+2025-05-10 14:36:40,627 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 14:36:40,627 - INFO - ==================================================
+2025-05-10 14:36:40,627 - ERROR - Fatal error in clinical trials pipeline: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+Traceback (most recent call last):
+  File "D:\s\python\LLM_Mining\phase1.py", line 970, in run_clinical_trials_pipeline
+    trials = self.collector.search_clinical_trials(condition, intervention, max_results)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LiteratureCollector' object has no attribute 'search_clinical_trials'
+2025-05-10 14:36:40,627 - INFO - 
+Saving results to files...
+2025-05-10 14:36:40,676 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 14:36:42,420 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 14:37:09,787 - INFO - Initializing NLP model...
+2025-05-10 14:37:10,481 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 14:37:10,481 - INFO - Using cache directory: ./data_cache
+2025-05-10 14:37:10,481 - INFO - Initializing NLP model...
+2025-05-10 14:37:11,082 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 14:37:11,082 - INFO - Using cache directory: ./data_cache
+2025-05-10 14:37:11,082 - INFO - 
+==================================================
+2025-05-10 14:37:11,082 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 14:37:11,082 - INFO - ==================================================
+2025-05-10 14:37:11,082 - INFO - 
+==================================================
+2025-05-10 14:37:11,082 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 14:37:11,082 - INFO - ==================================================
+2025-05-10 14:37:11,082 - INFO - LiteratureCollector initialized.
+2025-05-10 14:37:11,082 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 14:37:11,082 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 14:37:11,082 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 14:37:11,082 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 14:37:11,082 - INFO - Pipeline components initialized successfully.
+2025-05-10 14:37:11,082 - INFO - 
+==================================================
+2025-05-10 14:37:11,082 - INFO - Starting PubMed Pipeline
+2025-05-10 14:37:11,082 - INFO - ==================================================
+2025-05-10 14:37:11,082 - INFO - Searching PubMed for: '("pembrolizumab"[Title/Abstract] OR "nivolumab"[Title/Abstract]) AND ("PD-L1"[Title/Abstract]) AND ("non-small cell lung cancer"[Title/Abstract]) AND ("2020/01/01"[Date - Publication] : "2023/12/31"[Date - Publication])'
+2025-05-10 14:37:12,156 - INFO - Found 500 articles. Fetching details...
+2025-05-10 14:37:30,293 - INFO - Cached 499 articles to ./data_cache\pubmed_-1411865952211387430.json
+2025-05-10 14:37:30,293 - INFO - 
+Processing 499 articles...
+2025-05-10 14:37:30,310 - INFO - Processing article 1/499: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum ...
+2025-05-10 14:37:35,157 - INFO - Processing article 101/499: Differential treatment responses to immune checkpo...
+2025-05-10 14:37:39,580 - INFO - Processing article 201/499: Preclinical Studies of a Novel Human PD-1 B-Cell P...
+2025-05-10 14:37:43,696 - INFO - Processing article 301/499: For which lung cancer patients is re-administratio...
+2025-05-10 14:37:48,065 - INFO - Processing article 401/499: Differential influence of antibiotic therapy and o...
+2025-05-10 14:37:52,802 - INFO - 
+Knowledge graph built with 57 nodes and 241 edges.
+2025-05-10 14:37:52,802 - INFO - 
+==================================================
+2025-05-10 14:37:52,802 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 14:37:52,802 - INFO - ==================================================
+2025-05-10 14:37:52,802 - INFO - Querying ClinicalTrials.gov for: non-small cell lung cancer
+2025-05-10 14:37:53,420 - INFO - Cached 100 trials
+2025-05-10 14:37:53,420 - INFO - 
+Processing 100 trials...
+2025-05-10 14:37:53,420 - INFO - Processing trial 1/100: Long-Term Follow-Up Study of Patients Receiving AT...
+2025-05-10 14:37:53,828 - INFO - Processing trial 21/100: SinTilimab After Radiation (STAR Study)...
+2025-05-10 14:37:54,222 - INFO - Processing trial 41/100: GRN-1201 With Pembrolizumab in Subjects With Metas...
+2025-05-10 14:37:54,677 - INFO - Processing trial 61/100: Apricity CARE to Improve ICI Outcomes of Ethnic/Ra...
+2025-05-10 14:37:55,199 - INFO - Processing trial 81/100: Targeting ODC as an Immunotherapeutic Target in ST...
+2025-05-10 14:37:55,648 - INFO - 
+Knowledge graph now has 60 nodes and 268 edges.
+2025-05-10 14:37:55,648 - INFO - 
+==================================================
+2025-05-10 14:37:55,648 - INFO - Starting Patents Pipeline
+2025-05-10 14:37:55,648 - INFO - ==================================================
+2025-05-10 14:37:55,648 - INFO - Searching Google Patents for: cancer immunotherapy PD-L1
+2025-05-10 14:37:55,913 - ERROR - Error accessing Google Patents API: 404 Client Error: Not Found for url: https://patents.googleapis.com/v1/patents:search?query=cancer+immunotherapy+PD-L1&pageSize=50&key=
+2025-05-10 14:37:55,913 - WARNING - No patents found matching criteria.
+2025-05-10 14:37:55,913 - INFO - 
+Analyzing knowledge graph...
+2025-05-10 14:37:55,953 - INFO - 
+Network Metrics:
+2025-05-10 14:37:55,953 - INFO - - Nodes: 60
+2025-05-10 14:37:55,953 - INFO - - Edges: 264
+2025-05-10 14:37:55,953 - INFO - - Density: 0.0746
+2025-05-10 14:37:55,953 - INFO - 
+Top Nodes by Degree Centrality:
+2025-05-10 14:37:55,953 - INFO -   pembrolizumab: 0.508
+2025-05-10 14:37:55,953 - INFO -   MET: 0.475
+2025-05-10 14:37:55,962 - INFO -   nivolumab: 0.390
+2025-05-10 14:37:55,962 - INFO -   lung cancer: 0.322
+2025-05-10 14:37:55,962 - INFO -   ER: 0.322
+2025-05-10 14:37:55,962 - INFO -   ipilimumab: 0.305
+2025-05-10 14:37:55,965 - INFO -   AR: 0.305
+2025-05-10 14:37:55,965 - INFO -   PR: 0.305
+2025-05-10 14:37:55,966 - INFO -   PD-L1: 0.288
+2025-05-10 14:37:55,966 - INFO -   non-small cell lung cancer: 0.288
+2025-05-10 14:37:55,966 - INFO - 
+Top Nodes by Betweenness Centrality:
+2025-05-10 14:37:55,966 - INFO -   MET: 0.052
+2025-05-10 14:37:55,966 - INFO -   pembrolizumab: 0.044
+2025-05-10 14:37:55,966 - INFO -   nivolumab: 0.012
+2025-05-10 14:37:55,966 - INFO -   lung cancer: 0.010
+2025-05-10 14:37:55,966 - INFO -   EGFR: 0.006
+2025-05-10 14:37:55,966 - INFO -   HER2: 0.006
+2025-05-10 14:37:55,973 - INFO -   ALK: 0.003
+2025-05-10 14:37:55,973 - INFO -   docetaxel: 0.002
+2025-05-10 14:37:55,975 - INFO -   ipilimumab: 0.002
+2025-05-10 14:37:55,975 - INFO -   KRAS: 0.002
+2025-05-10 14:37:55,975 - INFO - 
+Saving results to files...
+2025-05-10 14:37:56,050 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 14:37:56,101 - INFO - Graph saved to GEXF format: ./output\oncology_graph.gexf
+2025-05-10 14:37:56,101 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 14:39:23,094 - INFO - 
+==================================================
+2025-05-10 14:39:23,103 - INFO - Pipeline completed successfully!
+2025-05-10 14:39:23,103 - INFO - ==================================================
+2025-05-10 14:39:23,738 - INFO - 
+==================================================
+2025-05-10 14:39:23,738 - INFO - Pipeline completed successfully!
+2025-05-10 14:39:23,738 - INFO - ==================================================
+2025-05-10 23:05:13,459 - INFO - Initializing NLP model...
+2025-05-10 23:05:14,262 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 23:05:14,262 - INFO - Using cache directory: ./data_cache
+2025-05-10 23:05:14,262 - INFO - Initializing NLP model...
+2025-05-10 23:05:14,855 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 23:05:14,855 - INFO - Using cache directory: ./data_cache
+2025-05-10 23:05:14,855 - INFO - 
+==================================================
+2025-05-10 23:05:14,855 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 23:05:14,855 - INFO - ==================================================
+2025-05-10 23:05:14,855 - INFO - 
+==================================================
+2025-05-10 23:05:14,855 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 23:05:14,855 - INFO - ==================================================
+2025-05-10 23:05:14,855 - INFO - LiteratureCollector initialized.
+2025-05-10 23:05:14,855 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 23:05:14,855 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 23:05:14,863 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 23:05:14,863 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 23:05:14,863 - INFO - Pipeline components initialized successfully.
+2025-05-10 23:05:14,863 - INFO - 
+==================================================
+2025-05-10 23:05:14,863 - INFO - Starting PubMed Pipeline
+2025-05-10 23:05:14,863 - INFO - ==================================================
+2025-05-10 23:05:14,863 - INFO - Searching PubMed for: '("pembrolizumab"[Title/Abstract] OR "nivolumab"[Title/Abstract]) AND ("PD-L1"[Title/Abstract]) AND ("non-small cell lung cancer"[Title/Abstract]) AND ("2020/01/01"[Date - Publication] : "2023/12/31"[Date - Publication])'
+2025-05-10 23:05:16,693 - INFO - Found 500 articles. Fetching details...
+2025-05-10 23:05:29,605 - INFO - Cached 499 articles to ./data_cache\pubmed_-6972284210945281520.json
+2025-05-10 23:05:29,613 - INFO - 
+Processing 499 articles...
+2025-05-10 23:05:29,642 - INFO - Processing article 1/499: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum ...
+2025-05-10 23:05:34,496 - INFO - Processing article 101/499: Differential treatment responses to immune checkpo...
+2025-05-10 23:05:39,371 - INFO - Processing article 201/499: Preclinical Studies of a Novel Human PD-1 B-Cell P...
+2025-05-10 23:05:43,395 - INFO - Processing article 301/499: For which lung cancer patients is re-administratio...
+2025-05-10 23:05:47,800 - INFO - Processing article 401/499: Differential influence of antibiotic therapy and o...
+2025-05-10 23:05:52,768 - INFO - 
+Knowledge graph built with 57 nodes and 241 edges.
+2025-05-10 23:05:52,768 - INFO - 
+==================================================
+2025-05-10 23:05:52,768 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 23:05:52,768 - INFO - ==================================================
+2025-05-10 23:05:52,778 - INFO - Querying ClinicalTrials.gov for: non-small cell lung cancer
+2025-05-10 23:05:53,684 - INFO - Cached 100 trials
+2025-05-10 23:05:53,704 - INFO - 
+Processing 100 trials...
+2025-05-10 23:05:53,704 - INFO - Processing trial 1/100: Long-Term Follow-Up Study of Patients Receiving AT...
+2025-05-10 23:05:54,237 - INFO - Processing trial 21/100: SinTilimab After Radiation (STAR Study)...
+2025-05-10 23:05:54,682 - INFO - Processing trial 41/100: GRN-1201 With Pembrolizumab in Subjects With Metas...
+2025-05-10 23:05:55,157 - INFO - Processing trial 61/100: Apricity CARE to Improve ICI Outcomes of Ethnic/Ra...
+2025-05-10 23:05:55,704 - INFO - Processing trial 81/100: Targeting ODC as an Immunotherapeutic Target in ST...
+2025-05-10 23:05:56,215 - INFO - 
+Knowledge graph now has 60 nodes and 268 edges.
+2025-05-10 23:05:56,215 - INFO - 
+==================================================
+2025-05-10 23:05:56,215 - INFO - Starting Patents Pipeline
+2025-05-10 23:05:56,215 - INFO - ==================================================
+2025-05-10 23:05:56,215 - INFO - Searching Google Patents for: cancer immunotherapy PD-L1
+2025-05-10 23:05:56,674 - ERROR - Error accessing Google Patents API: 404 Client Error: Not Found for url: https://patents.googleapis.com/v1/patents:search?query=cancer+immunotherapy+PD-L1&pageSize=50&key=
+2025-05-10 23:05:56,674 - WARNING - No patents found matching criteria.
+2025-05-10 23:05:56,674 - INFO - 
+Analyzing knowledge graph...
+2025-05-10 23:05:56,715 - INFO - 
+Network Metrics:
+2025-05-10 23:05:56,716 - INFO - - Nodes: 60
+2025-05-10 23:05:56,716 - INFO - - Edges: 264
+2025-05-10 23:05:56,716 - INFO - - Density: 0.0746
+2025-05-10 23:05:56,716 - INFO - 
+Top Nodes by Degree Centrality:
+2025-05-10 23:05:56,716 - INFO -   pembrolizumab: 0.508
+2025-05-10 23:05:56,716 - INFO -   MET: 0.475
+2025-05-10 23:05:56,716 - INFO -   nivolumab: 0.390
+2025-05-10 23:05:56,716 - INFO -   lung cancer: 0.322
+2025-05-10 23:05:56,716 - INFO -   ER: 0.322
+2025-05-10 23:05:56,716 - INFO -   ipilimumab: 0.305
+2025-05-10 23:05:56,716 - INFO -   AR: 0.305
+2025-05-10 23:05:56,724 - INFO -   PR: 0.305
+2025-05-10 23:05:56,724 - INFO -   non-small cell lung cancer: 0.288
+2025-05-10 23:05:56,724 - INFO -   PD-L1: 0.288
+2025-05-10 23:05:56,724 - INFO - 
+Top Nodes by Betweenness Centrality:
+2025-05-10 23:05:56,724 - INFO -   MET: 0.052
+2025-05-10 23:05:56,724 - INFO -   pembrolizumab: 0.044
+2025-05-10 23:05:56,724 - INFO -   nivolumab: 0.012
+2025-05-10 23:05:56,724 - INFO -   lung cancer: 0.010
+2025-05-10 23:05:56,730 - INFO -   EGFR: 0.006
+2025-05-10 23:05:56,730 - INFO -   HER2: 0.006
+2025-05-10 23:05:56,730 - INFO -   ALK: 0.003
+2025-05-10 23:05:56,732 - INFO -   ipilimumab: 0.002
+2025-05-10 23:05:56,732 - INFO -   docetaxel: 0.002
+2025-05-10 23:05:56,732 - INFO -   KRAS: 0.002
+2025-05-10 23:05:56,732 - INFO - 
+Saving results to files...
+2025-05-10 23:05:56,830 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 23:05:56,879 - INFO - Graph saved to GEXF format: ./output\oncology_graph.gexf
+2025-05-10 23:05:56,879 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 23:07:02,746 - INFO - 
+==================================================
+2025-05-10 23:07:02,746 - INFO - Pipeline completed successfully!
+2025-05-10 23:07:02,746 - INFO - ==================================================
+2025-05-10 23:07:27,246 - INFO - Initializing NLP model...
+2025-05-10 23:07:27,882 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 23:07:27,882 - INFO - Using cache directory: ./data_cache
+2025-05-10 23:07:27,882 - INFO - Initializing NLP model...
+2025-05-10 23:07:28,470 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-10 23:07:28,470 - INFO - Using cache directory: ./data_cache
+2025-05-10 23:07:28,470 - INFO - 
+==================================================
+2025-05-10 23:07:28,470 - INFO - Starting Oncology Literature Mining MVP
+2025-05-10 23:07:28,470 - INFO - ==================================================
+2025-05-10 23:07:28,477 - INFO - 
+==================================================
+2025-05-10 23:07:28,477 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-10 23:07:28,478 - INFO - ==================================================
+2025-05-10 23:07:28,478 - INFO - LiteratureCollector initialized.
+2025-05-10 23:07:28,478 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-10 23:07:28,478 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-10 23:07:28,478 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-10 23:07:28,478 - INFO - Initialized empty KnowledgeGraph
+2025-05-10 23:07:28,478 - INFO - Pipeline components initialized successfully.
+2025-05-10 23:07:28,478 - INFO - 
+==================================================
+2025-05-10 23:07:28,478 - INFO - Starting PubMed Pipeline
+2025-05-10 23:07:28,478 - INFO - ==================================================
+2025-05-10 23:07:28,478 - INFO - Searching PubMed for: '("pembrolizumab"[Title/Abstract] OR "nivolumab"[Title/Abstract]) AND ("PD-L1"[Title/Abstract]) AND ("non-small cell lung cancer"[Title/Abstract]) AND ("2020/01/01"[Date - Publication] : "2023/12/31"[Date - Publication])'
+2025-05-10 23:07:29,441 - INFO - Found 500 articles. Fetching details...
+2025-05-10 23:07:39,531 - INFO - Cached 499 articles to ./data_cache\pubmed_6580899283202864509.json
+2025-05-10 23:07:39,531 - INFO - 
+Processing 499 articles...
+2025-05-10 23:07:39,552 - INFO - Processing article 1/499: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum ...
+2025-05-10 23:07:44,235 - INFO - Processing article 101/499: Differential treatment responses to immune checkpo...
+2025-05-10 23:07:48,968 - INFO - Processing article 201/499: Preclinical Studies of a Novel Human PD-1 B-Cell P...
+2025-05-10 23:07:53,043 - INFO - Processing article 301/499: For which lung cancer patients is re-administratio...
+2025-05-10 23:07:57,242 - INFO - Processing article 401/499: Differential influence of antibiotic therapy and o...
+2025-05-10 23:08:01,810 - INFO - 
+Knowledge graph built with 57 nodes and 241 edges.
+2025-05-10 23:08:01,813 - INFO - 
+==================================================
+2025-05-10 23:08:01,813 - INFO - Starting Clinical Trials Pipeline
+2025-05-10 23:08:01,813 - INFO - ==================================================
+2025-05-10 23:08:01,813 - INFO - Querying ClinicalTrials.gov for: non-small cell lung cancer
+2025-05-10 23:08:03,407 - INFO - Cached 100 trials
+2025-05-10 23:08:03,410 - INFO - 
+Processing 100 trials...
+2025-05-10 23:08:03,410 - INFO - Processing trial 1/100: Long-Term Follow-Up Study of Patients Receiving AT...
+2025-05-10 23:08:03,913 - INFO - Processing trial 21/100: SinTilimab After Radiation (STAR Study)...
+2025-05-10 23:08:04,323 - INFO - Processing trial 41/100: GRN-1201 With Pembrolizumab in Subjects With Metas...
+2025-05-10 23:08:04,741 - INFO - Processing trial 61/100: Apricity CARE to Improve ICI Outcomes of Ethnic/Ra...
+2025-05-10 23:08:05,243 - INFO - Processing trial 81/100: Targeting ODC as an Immunotherapeutic Target in ST...
+2025-05-10 23:08:05,665 - INFO - 
+Knowledge graph now has 60 nodes and 268 edges.
+2025-05-10 23:08:05,665 - INFO - 
+==================================================
+2025-05-10 23:08:05,665 - INFO - Starting Patents Pipeline
+2025-05-10 23:08:05,665 - INFO - ==================================================
+2025-05-10 23:08:05,680 - INFO - Searching Google Patents for: cancer immunotherapy PD-L1
+2025-05-10 23:08:05,863 - ERROR - Error accessing Google Patents API: 404 Client Error: Not Found for url: https://patents.googleapis.com/v1/patents:search?query=cancer+immunotherapy+PD-L1&pageSize=50&key=
+2025-05-10 23:08:05,863 - WARNING - No patents found matching criteria.
+2025-05-10 23:08:05,863 - INFO - 
+Analyzing knowledge graph...
+2025-05-10 23:08:05,903 - INFO - 
+Network Metrics:
+2025-05-10 23:08:05,903 - INFO - - Nodes: 60
+2025-05-10 23:08:05,903 - INFO - - Edges: 264
+2025-05-10 23:08:05,903 - INFO - - Density: 0.0746
+2025-05-10 23:08:05,903 - INFO - 
+Top Nodes by Degree Centrality:
+2025-05-10 23:08:05,908 - INFO -   pembrolizumab: 0.508
+2025-05-10 23:08:05,908 - INFO -   MET: 0.475
+2025-05-10 23:08:05,908 - INFO -   nivolumab: 0.390
+2025-05-10 23:08:05,908 - INFO -   ER: 0.322
+2025-05-10 23:08:05,908 - INFO -   lung cancer: 0.322
+2025-05-10 23:08:05,908 - INFO -   ipilimumab: 0.305
+2025-05-10 23:08:05,908 - INFO -   PR: 0.305
+2025-05-10 23:08:05,908 - INFO -   AR: 0.305
+2025-05-10 23:08:05,908 - INFO -   non-small cell lung cancer: 0.288
+2025-05-10 23:08:05,908 - INFO -   PD-L1: 0.288
+2025-05-10 23:08:05,908 - INFO - 
+Top Nodes by Betweenness Centrality:
+2025-05-10 23:08:05,916 - INFO -   MET: 0.052
+2025-05-10 23:08:05,916 - INFO -   pembrolizumab: 0.044
+2025-05-10 23:08:05,916 - INFO -   nivolumab: 0.012
+2025-05-10 23:08:05,916 - INFO -   lung cancer: 0.010
+2025-05-10 23:08:05,916 - INFO -   EGFR: 0.006
+2025-05-10 23:08:05,916 - INFO -   HER2: 0.006
+2025-05-10 23:08:05,916 - INFO -   ALK: 0.003
+2025-05-10 23:08:05,916 - INFO -   ipilimumab: 0.002
+2025-05-10 23:08:05,916 - INFO -   docetaxel: 0.002
+2025-05-10 23:08:05,916 - INFO -   KRAS: 0.002
+2025-05-10 23:08:05,916 - INFO - 
+Saving results to files...
+2025-05-10 23:08:06,004 - INFO - Results saved to:
+- ./output/oncology_knowledge_graph_nodes.csv
+- ./output/oncology_knowledge_graph_edges.csv
+- ./output/oncology_knowledge_graph_graph.json
+2025-05-10 23:08:06,037 - INFO - Graph saved to GEXF format: ./output\oncology_graph.gexf
+2025-05-10 23:08:06,037 - INFO - 
+Generating knowledge graph visualization...
+2025-05-10 23:08:13,032 - INFO - 
+==================================================
+2025-05-10 23:08:13,032 - INFO - Pipeline completed successfully!
+2025-05-10 23:08:13,032 - INFO - ==================================================
+2025-05-13 10:32:03,473 - INFO - Initializing NLP model...
+2025-05-13 10:32:05,423 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:32:05,424 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:32:05,426 - INFO - Initializing NLP model...
+2025-05-13 10:32:07,051 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:32:07,052 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:32:10,182 - INFO - 
+==================================================
+2025-05-13 10:32:10,182 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 10:32:10,182 - INFO - ==================================================
+2025-05-13 10:32:10,185 - INFO - LiteratureCollector initialized.
+2025-05-13 10:32:10,187 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 10:32:10,188 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 10:32:10,193 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 10:32:10,194 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 10:32:10,194 - INFO - Pipeline components initialized successfully.
+2025-05-13 10:32:30,436 - INFO - 
+==================================================
+2025-05-13 10:32:30,437 - INFO - Starting PubMed Pipeline
+2025-05-13 10:32:30,437 - INFO - ==================================================
+2025-05-13 10:32:30,438 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 10:32:34,704 - INFO - Found 100 articles. Fetching details...
+2025-05-13 10:32:36,969 - INFO - Cached 100 articles to ./data_cache\pubmed_-219857923865177016.json
+2025-05-13 10:32:36,979 - INFO - 
+Processing 100 articles...
+2025-05-13 10:32:36,987 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 10:32:45,074 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 10:33:05,378 - INFO - 
+==================================================
+2025-05-13 10:33:05,379 - INFO - Starting Clinical Trials Pipeline
+2025-05-13 10:33:05,379 - INFO - ==================================================
+2025-05-13 10:33:05,380 - INFO - Querying ClinicalTrials.gov for: breast cancer
+2025-05-13 10:33:05,993 - INFO - Cached 50 trials
+2025-05-13 10:33:05,997 - INFO - 
+Processing 50 trials...
+2025-05-13 10:33:05,997 - INFO - Processing trial 1/50: Chemotherapy in Treating Patients With Breast Canc...
+2025-05-13 10:33:07,171 - INFO - Processing trial 21/50: The ODYSSEY TRIAL Phase IV Trial Evaluating the Pa...
+2025-05-13 10:33:08,362 - INFO - Processing trial 41/50: Improvement of the Operative Outcome in Patients W...
+2025-05-13 10:33:08,985 - INFO - 
+Knowledge graph now has 41 nodes and 113 edges.
+2025-05-13 10:34:07,143 - INFO - Initializing NLP model...
+2025-05-13 10:34:08,694 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:34:08,694 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:34:08,698 - INFO - Initializing NLP model...
+2025-05-13 10:34:09,814 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:34:09,814 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:34:12,575 - INFO - 
+==================================================
+2025-05-13 10:34:12,575 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 10:34:12,575 - INFO - ==================================================
+2025-05-13 10:34:12,575 - INFO - LiteratureCollector initialized.
+2025-05-13 10:34:12,575 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 10:34:12,575 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 10:34:12,592 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 10:34:12,593 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 10:34:12,593 - INFO - Pipeline components initialized successfully.
+2025-05-13 10:34:20,062 - INFO - 
+==================================================
+2025-05-13 10:34:20,062 - INFO - Starting PubMed Pipeline
+2025-05-13 10:34:20,063 - INFO - ==================================================
+2025-05-13 10:34:20,063 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 10:34:21,224 - INFO - Found 100 articles. Fetching details...
+2025-05-13 10:34:24,009 - INFO - Cached 100 articles to ./data_cache\pubmed_-6534504519660955941.json
+2025-05-13 10:34:24,013 - INFO - 
+Processing 100 articles...
+2025-05-13 10:34:24,101 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 10:34:32,215 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 10:36:15,998 - INFO - Initializing NLP model...
+2025-05-13 10:36:17,186 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:36:17,186 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:36:17,186 - INFO - Initializing NLP model...
+2025-05-13 10:36:18,294 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:36:18,296 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:36:18,784 - INFO - 
+Saving results to files...
+2025-05-13 10:36:18,815 - INFO - Results saved to:
+- ./output/oncology_knowledge_nodes.csv
+- ./output/oncology_knowledge_edges.csv
+- ./output/oncology_knowledge_graph.json
+2025-05-13 10:36:18,815 - INFO - Graph saved to GEXF format: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpzjo3f65o\graph.gexf
+2025-05-13 10:36:33,007 - INFO - 
+==================================================
+2025-05-13 10:36:33,008 - INFO - Starting PubMed Pipeline
+2025-05-13 10:36:33,008 - INFO - ==================================================
+2025-05-13 10:36:33,009 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 10:36:34,491 - INFO - Found 100 articles. Fetching details...
+2025-05-13 10:36:39,423 - INFO - Cached 100 articles to ./data_cache\pubmed_-6534504519660955941.json
+2025-05-13 10:36:39,429 - INFO - 
+Processing 100 articles...
+2025-05-13 10:36:39,429 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 10:36:45,743 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 10:39:58,636 - INFO - Initializing NLP model...
+2025-05-13 10:39:59,816 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:39:59,817 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:39:59,819 - INFO - Initializing NLP model...
+2025-05-13 10:40:00,767 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:40:00,769 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:40:03,053 - INFO - 
+==================================================
+2025-05-13 10:40:03,053 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 10:40:03,053 - INFO - ==================================================
+2025-05-13 10:40:03,054 - INFO - LiteratureCollector initialized.
+2025-05-13 10:40:03,054 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 10:40:03,054 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 10:40:03,060 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 10:40:03,061 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 10:40:03,061 - INFO - Pipeline components initialized successfully.
+2025-05-13 10:40:09,550 - INFO - 
+==================================================
+2025-05-13 10:40:09,551 - INFO - Starting PubMed Pipeline
+2025-05-13 10:40:09,552 - INFO - ==================================================
+2025-05-13 10:40:09,552 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 10:40:11,016 - INFO - Found 100 articles. Fetching details...
+2025-05-13 10:40:13,831 - INFO - Cached 100 articles to ./data_cache\pubmed_-6045058984088597728.json
+2025-05-13 10:40:13,834 - INFO - 
+Processing 100 articles...
+2025-05-13 10:40:13,842 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 10:40:20,683 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 10:42:14,297 - INFO - Initializing NLP model...
+2025-05-13 10:42:15,275 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:42:15,277 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:42:15,277 - INFO - Initializing NLP model...
+2025-05-13 10:42:16,257 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 10:42:16,257 - INFO - Using cache directory: ./data_cache
+2025-05-13 10:42:27,546 - INFO - 
+==================================================
+2025-05-13 10:42:27,546 - INFO - Starting PubMed Pipeline
+2025-05-13 10:42:27,547 - INFO - ==================================================
+2025-05-13 10:42:27,547 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 10:42:28,691 - INFO - Found 100 articles. Fetching details...
+2025-05-13 10:42:32,545 - INFO - Cached 100 articles to ./data_cache\pubmed_-6045058984088597728.json
+2025-05-13 10:42:32,550 - INFO - 
+Processing 100 articles...
+2025-05-13 10:42:32,551 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 10:42:38,512 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 10:42:59,079 - INFO - 
+==================================================
+2025-05-13 10:42:59,079 - INFO - Starting Clinical Trials Pipeline
+2025-05-13 10:42:59,080 - INFO - ==================================================
+2025-05-13 10:42:59,081 - INFO - Querying ClinicalTrials.gov for: breast cancer
+2025-05-13 10:43:00,194 - INFO - Cached 50 trials
+2025-05-13 10:43:00,203 - INFO - 
+Processing 50 trials...
+2025-05-13 10:43:00,205 - INFO - Processing trial 1/50: Chemotherapy in Treating Patients With Breast Canc...
+2025-05-13 10:43:01,173 - INFO - Processing trial 21/50: The ODYSSEY TRIAL Phase IV Trial Evaluating the Pa...
+2025-05-13 10:43:02,233 - INFO - Processing trial 41/50: Improvement of the Operative Outcome in Patients W...
+2025-05-13 10:43:02,739 - INFO - 
+Knowledge graph now has 41 nodes and 113 edges.
+2025-05-13 10:43:13,101 - INFO - 
+==================================================
+2025-05-13 10:43:13,102 - INFO - Starting Patents Pipeline
+2025-05-13 10:43:13,102 - INFO - ==================================================
+2025-05-13 10:43:13,103 - INFO - Searching Google Patents for: cancer immunotherapy
+2025-05-13 10:43:13,455 - ERROR - Error accessing Google Patents API: 404 Client Error: Not Found for url: https://patents.googleapis.com/v1/patents:search?query=cancer+immunotherapy&pageSize=20&key=
+2025-05-13 10:43:13,455 - WARNING - No patents found matching criteria.
+2025-05-13 10:46:49,821 - INFO - 
+==================================================
+2025-05-13 10:46:49,822 - INFO - Starting Clinical Trials Pipeline
+2025-05-13 10:46:49,822 - INFO - ==================================================
+2025-05-13 10:46:49,826 - INFO - Loaded 50 trials from cache
+2025-05-13 10:46:49,826 - INFO - 
+Processing 50 trials...
+2025-05-13 10:46:49,828 - INFO - Processing trial 1/50: Chemotherapy in Treating Patients With Breast Canc...
+2025-05-13 10:46:50,946 - INFO - Processing trial 21/50: The ODYSSEY TRIAL Phase IV Trial Evaluating the Pa...
+2025-05-13 10:46:51,959 - INFO - Processing trial 41/50: Improvement of the Operative Outcome in Patients W...
+2025-05-13 10:46:52,373 - INFO - 
+Knowledge graph now has 41 nodes and 113 edges.
+2025-05-13 13:22:08,245 - INFO - Initializing NLP model...
+2025-05-13 13:22:09,182 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 13:22:09,183 - INFO - Using cache directory: ./data_cache
+2025-05-13 13:22:09,184 - INFO - Initializing NLP model...
+2025-05-13 13:22:09,830 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 13:22:09,831 - INFO - Using cache directory: ./data_cache
+2025-05-13 13:22:11,623 - INFO - 
+==================================================
+2025-05-13 13:22:11,623 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 13:22:11,623 - INFO - ==================================================
+2025-05-13 13:22:11,623 - INFO - LiteratureCollector initialized.
+2025-05-13 13:22:11,624 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 13:22:11,624 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 13:22:11,628 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 13:22:11,629 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 13:22:11,629 - INFO - Pipeline components initialized successfully.
+2025-05-13 13:22:18,334 - INFO - 
+==================================================
+2025-05-13 13:22:18,335 - INFO - Starting PubMed Pipeline
+2025-05-13 13:22:18,336 - INFO - ==================================================
+2025-05-13 13:22:18,336 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 13:22:20,091 - INFO - Found 100 articles. Fetching details...
+2025-05-13 13:22:22,834 - INFO - Cached 100 articles to ./data_cache\pubmed_-5909490916323858177.json
+2025-05-13 13:22:22,839 - INFO - 
+Processing 100 articles...
+2025-05-13 13:22:22,867 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 13:22:28,220 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 13:51:56,128 - INFO - Initializing NLP model...
+2025-05-13 13:51:57,066 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 13:51:57,067 - INFO - Using cache directory: ./data_cache
+2025-05-13 13:51:57,068 - INFO - Initializing NLP model...
+2025-05-13 13:51:57,779 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 13:51:57,779 - INFO - Using cache directory: ./data_cache
+2025-05-13 13:52:00,591 - INFO - 
+==================================================
+2025-05-13 13:52:00,591 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 13:52:00,593 - INFO - ==================================================
+2025-05-13 13:52:00,593 - INFO - LiteratureCollector initialized.
+2025-05-13 13:52:00,593 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 13:52:00,593 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 13:52:00,600 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 13:52:00,601 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 13:52:00,601 - INFO - Pipeline components initialized successfully.
+2025-05-13 14:30:04,999 - INFO - 
+==================================================
+2025-05-13 14:30:05,016 - INFO - Starting PubMed Pipeline
+2025-05-13 14:30:05,017 - INFO - ==================================================
+2025-05-13 14:30:05,031 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 14:30:07,444 - INFO - Found 100 articles. Fetching details...
+2025-05-13 14:30:10,458 - INFO - Cached 100 articles to ./data_cache\pubmed_-1158887735068763263.json
+2025-05-13 14:30:10,465 - INFO - 
+Processing 100 articles...
+2025-05-13 14:30:10,576 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 14:30:18,161 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 14:50:02,400 - INFO - Initializing NLP model...
+2025-05-13 14:50:03,577 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 14:50:03,577 - INFO - Using cache directory: ./data_cache
+2025-05-13 14:50:03,577 - INFO - Initializing NLP model...
+2025-05-13 14:50:04,294 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 14:50:04,294 - INFO - Using cache directory: ./data_cache
+2025-05-13 14:50:06,477 - INFO - 
+==================================================
+2025-05-13 14:50:06,477 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 14:50:06,477 - INFO - ==================================================
+2025-05-13 14:50:06,477 - INFO - LiteratureCollector initialized.
+2025-05-13 14:50:06,477 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 14:50:06,477 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 14:50:06,483 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 14:50:06,483 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 14:50:06,483 - INFO - Pipeline components initialized successfully.
+2025-05-13 14:50:17,531 - INFO - 
+==================================================
+2025-05-13 14:50:17,531 - INFO - Starting PubMed Pipeline
+2025-05-13 14:50:17,547 - INFO - ==================================================
+2025-05-13 14:50:17,549 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 14:50:18,900 - INFO - Found 50 articles. Fetching details...
+2025-05-13 14:50:21,525 - INFO - Cached 50 articles to ./data_cache\pubmed_-397405497764883656.json
+2025-05-13 14:50:21,525 - INFO - 
+Processing 50 articles...
+2025-05-13 14:50:21,551 - INFO - Processing article 1/50: Patient rights in precision oncology: right treatm...
+2025-05-13 14:50:24,167 - INFO - 
+Knowledge graph built with 28 nodes and 76 edges.
+2025-05-13 15:52:53,760 - INFO - Initializing NLP model...
+2025-05-13 15:52:54,734 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 15:52:54,734 - INFO - Using cache directory: ./data_cache
+2025-05-13 15:52:54,734 - INFO - Initializing NLP model...
+2025-05-13 15:52:55,435 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 15:52:55,435 - INFO - Using cache directory: ./data_cache
+2025-05-13 15:52:58,464 - INFO - 
+==================================================
+2025-05-13 15:52:58,464 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 15:52:58,464 - INFO - ==================================================
+2025-05-13 15:52:58,464 - INFO - LiteratureCollector initialized.
+2025-05-13 15:52:58,464 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 15:52:58,464 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 15:52:58,475 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 15:52:58,477 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 15:52:58,477 - INFO - Pipeline components initialized successfully.
+2025-05-13 15:53:01,977 - INFO - 
+==================================================
+2025-05-13 15:53:01,977 - INFO - Starting PubMed Pipeline
+2025-05-13 15:53:01,977 - INFO - ==================================================
+2025-05-13 15:53:01,977 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 15:53:03,610 - INFO - Found 100 articles. Fetching details...
+2025-05-13 15:53:06,612 - INFO - Cached 100 articles to ./data_cache\pubmed_517409280999914073.json
+2025-05-13 15:53:06,628 - INFO - 
+Processing 100 articles...
+2025-05-13 15:53:06,652 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 15:53:13,572 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 16:01:02,098 - INFO - Initializing NLP model...
+2025-05-13 16:01:03,232 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 16:01:03,232 - INFO - Using cache directory: ./data_cache
+2025-05-13 16:01:03,232 - INFO - Initializing NLP model...
+2025-05-13 16:01:04,068 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 16:01:04,068 - INFO - Using cache directory: ./data_cache
+2025-05-13 16:01:06,535 - INFO - 
+==================================================
+2025-05-13 16:01:06,535 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 16:01:06,535 - INFO - ==================================================
+2025-05-13 16:01:06,535 - INFO - LiteratureCollector initialized.
+2025-05-13 16:01:06,535 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 16:01:06,535 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 16:01:06,535 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 16:01:06,535 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 16:01:06,535 - INFO - Pipeline components initialized successfully.
+2025-05-13 16:01:14,278 - INFO - 
+==================================================
+2025-05-13 16:01:14,278 - INFO - Starting PubMed Pipeline
+2025-05-13 16:01:14,280 - INFO - ==================================================
+2025-05-13 16:01:14,280 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 16:01:16,354 - INFO - Found 100 articles. Fetching details...
+2025-05-13 16:01:21,473 - INFO - Cached 100 articles to ./data_cache\pubmed_-3691582840679482848.json
+2025-05-13 16:01:21,489 - INFO - 
+Processing 100 articles...
+2025-05-13 16:01:21,511 - INFO - Processing article 1/100: Patient rights in precision oncology: right treatm...
+2025-05-13 16:01:28,581 - INFO - 
+Knowledge graph built with 34 nodes and 98 edges.
+2025-05-13 16:02:18,240 - INFO - 
+==================================================
+2025-05-13 16:02:18,240 - INFO - Starting Clinical Trials Pipeline
+2025-05-13 16:02:18,241 - INFO - ==================================================
+2025-05-13 16:02:18,243 - INFO - Querying ClinicalTrials.gov for: breast cancer
+2025-05-13 16:02:18,815 - INFO - Cached 50 trials
+2025-05-13 16:02:18,816 - INFO - 
+Processing 50 trials...
+2025-05-13 16:02:18,824 - INFO - Processing trial 1/50: Chemotherapy in Treating Patients With Breast Canc...
+2025-05-13 16:02:19,460 - INFO - Processing trial 21/50: The ODYSSEY TRIAL Phase IV Trial Evaluating the Pa...
+2025-05-13 16:02:20,112 - INFO - Processing trial 41/50: Improvement of the Operative Outcome in Patients W...
+2025-05-13 16:02:20,446 - INFO - 
+Knowledge graph now has 41 nodes and 113 edges.
+2025-05-13 16:04:42,554 - INFO - Initializing NLP model...
+2025-05-13 16:04:43,295 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 16:04:43,303 - INFO - Using cache directory: ./data_cache
+2025-05-13 16:04:43,303 - INFO - Initializing NLP model...
+2025-05-13 16:04:43,908 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 16:04:43,908 - INFO - Using cache directory: ./data_cache
+2025-05-13 16:04:45,682 - INFO - 
+==================================================
+2025-05-13 16:04:45,682 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 16:04:45,682 - INFO - ==================================================
+2025-05-13 16:04:45,682 - INFO - LiteratureCollector initialized.
+2025-05-13 16:04:45,682 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 16:04:45,682 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 16:04:45,687 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 16:04:45,687 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 16:04:45,687 - INFO - Pipeline components initialized successfully.
+2025-05-13 16:04:49,820 - INFO - 
+==================================================
+2025-05-13 16:04:49,835 - INFO - Starting Clinical Trials Pipeline
+2025-05-13 16:04:49,835 - INFO - ==================================================
+2025-05-13 16:04:49,835 - INFO - Querying ClinicalTrials.gov for: breast cancer
+2025-05-13 16:04:50,604 - INFO - Cached 50 trials
+2025-05-13 16:04:50,612 - INFO - 
+Processing 50 trials...
+2025-05-13 16:04:50,630 - INFO - Processing trial 1/50: Chemotherapy in Treating Patients With Breast Canc...
+2025-05-13 16:04:51,304 - INFO - Processing trial 21/50: The ODYSSEY TRIAL Phase IV Trial Evaluating the Pa...
+2025-05-13 16:04:52,012 - INFO - Processing trial 41/50: Improvement of the Operative Outcome in Patients W...
+2025-05-13 16:04:52,390 - INFO - 
+Knowledge graph now has 17 nodes and 26 edges.
+2025-05-13 16:20:22,458 - INFO - Initializing NLP model...
+2025-05-13 16:20:23,881 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 16:20:23,883 - INFO - Using cache directory: ./data_cache
+2025-05-13 16:20:23,883 - INFO - Initializing NLP model...
+2025-05-13 16:20:25,048 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 16:20:25,048 - INFO - Using cache directory: ./data_cache
+2025-05-13 16:20:27,193 - INFO - 
+==================================================
+2025-05-13 16:20:27,193 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 16:20:27,193 - INFO - ==================================================
+2025-05-13 16:20:27,193 - INFO - LiteratureCollector initialized.
+2025-05-13 16:20:27,193 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 16:20:27,193 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 16:20:27,193 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 16:20:27,193 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 16:20:27,193 - INFO - Pipeline components initialized successfully.
+2025-05-13 16:20:36,990 - INFO - 
+==================================================
+2025-05-13 16:20:36,990 - INFO - Starting PubMed Pipeline
+2025-05-13 16:20:36,990 - INFO - ==================================================
+2025-05-13 16:20:36,990 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 16:20:38,787 - INFO - Found 100 articles. Fetching details...
+2025-05-13 16:20:41,007 - INFO - Cached 100 articles to ./data_cache\pubmed_3839554179635816075.json
+2025-05-13 16:20:41,020 - INFO - 
+Processing 100 articles...
+2025-05-13 16:20:41,038 - INFO - Processing article 1/100: Favorable 99mTc-FAPI-46 Uptake in Primary Mucinous...
+2025-05-13 16:20:47,571 - INFO - 
+Knowledge graph built with 36 nodes and 101 edges.
+2025-05-13 16:24:45,271 - INFO - Initializing NLP model...
+2025-05-13 16:24:46,129 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 16:24:46,129 - INFO - Using cache directory: ./data_cache
+2025-05-13 16:24:46,129 - INFO - Initializing NLP model...
+2025-05-13 16:24:46,761 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 16:24:46,777 - INFO - Using cache directory: ./data_cache
+2025-05-13 16:24:48,177 - INFO - 
+==================================================
+2025-05-13 16:24:48,177 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 16:24:48,177 - INFO - ==================================================
+2025-05-13 16:24:48,177 - INFO - LiteratureCollector initialized.
+2025-05-13 16:24:48,177 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 16:24:48,177 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 16:24:48,193 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 16:24:48,193 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 16:24:48,193 - INFO - Pipeline components initialized successfully.
+2025-05-13 16:24:52,100 - INFO - 
+==================================================
+2025-05-13 16:24:52,100 - INFO - Starting PubMed Pipeline
+2025-05-13 16:24:52,100 - INFO - ==================================================
+2025-05-13 16:24:52,100 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 16:24:53,347 - INFO - Found 100 articles. Fetching details...
+2025-05-13 16:24:56,186 - INFO - Cached 100 articles to ./data_cache\pubmed_-4688176825174640185.json
+2025-05-13 16:24:56,186 - INFO - 
+Processing 100 articles...
+2025-05-13 16:24:56,213 - INFO - Processing article 1/100: Favorable 99mTc-FAPI-46 Uptake in Primary Mucinous...
+2025-05-13 16:25:01,540 - INFO - 
+Knowledge graph built with 36 nodes and 101 edges.

@@ -1,0 +1,35 @@
+id,label,type,category,color
+n29,docetaxel,drug,chemotherapy,#1f77b4
+n11,lung cancer,cancer_type,,#d62728
+n14,erlotinib,drug,targeted therapy,#1f77b4
+n12,non-small cell lung cancer,cancer_type,,#d62728
+n33,KRAS,biomarker,,#2ca02c
+n26,leukemia,cancer_type,,#d62728
+n4,PR,biomarker,,#2ca02c
+n2,ER,biomarker,,#2ca02c
+n32,gefitinib,drug,targeted therapy,#1f77b4
+n31,ROS1,biomarker,,#2ca02c
+n5,melanoma,cancer_type,,#d62728
+n24,colorectal cancer,cancer_type,,#d62728
+n9,cisplatin,drug,chemotherapy,#1f77b4
+n15,prostate cancer,cancer_type,,#d62728
+n1,breast cancer,cancer_type,,#d62728
+n17,gastric cancer,cancer_type,,#d62728
+n19,ovarian cancer,cancer_type,,#d62728
+n3,MET,biomarker,,#2ca02c
+n22,hepatocellular carcinoma,cancer_type,,#d62728
+n20,renal cell carcinoma,cancer_type,,#d62728
+n28,TP53,biomarker,,#2ca02c
+n8,cervical cancer,cancer_type,,#d62728
+n25,pancreatic cancer,cancer_type,,#d62728
+n16,TMB,biomarker,,#2ca02c
+n30,ALK,biomarker,,#2ca02c
+n21,PTEN,biomarker,,#2ca02c
+n0,AR,biomarker,,#2ca02c
+n7,RET,biomarker,,#2ca02c
+n18,HER2,biomarker,,#2ca02c
+n23,lymphoma,cancer_type,,#d62728
+n10,bladder cancer,cancer_type,,#d62728
+n6,EGFR,biomarker,,#2ca02c
+n13,PD-L1,biomarker,,#2ca02c
+n27,endometrial cancer,cancer_type,,#d62728

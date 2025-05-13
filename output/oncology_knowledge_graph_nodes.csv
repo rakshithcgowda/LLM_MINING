@@ -1,0 +1,61 @@
+id,label,type,category,color
+n20,paclitaxel,drug,chemotherapy,#1f77b4
+n12,HER2,biomarker,,#2ca02c
+n49,gefitinib,drug,targeted therapy,#1f77b4
+n59,pancreatic cancer,cancer_type,,#d62728
+n4,non-small cell lung cancer,cancer_type,,#d62728
+n5,ER,biomarker,,#2ca02c
+n26,melanoma,cancer_type,,#d62728
+n53,NF1,gene,,#ff7f0e
+n11,nivolumab,drug,immunotherapy,#1f77b4
+n14,ipilimumab,drug,immunotherapy,#1f77b4
+n19,cisplatin,drug,chemotherapy,#1f77b4
+n30,bladder cancer,cancer_type,,#d62728
+n25,hepatocellular carcinoma,cancer_type,,#d62728
+n16,TMB,biomarker,,#2ca02c
+n48,cetuximab,drug,targeted therapy,#1f77b4
+n36,leukemia,cancer_type,,#d62728
+n18,carboplatin,drug,chemotherapy,#1f77b4
+n7,PR,biomarker,,#2ca02c
+n44,head and neck cancer,cancer_type,,#d62728
+n39,endometrial cancer,cancer_type,,#d62728
+n17,atezolizumab,drug,immunotherapy,#1f77b4
+n42,CDKN2A,gene,,#ff7f0e
+n10,RET,biomarker,,#2ca02c
+n31,lymphoma,cancer_type,,#d62728
+n8,ALK,biomarker,,#2ca02c
+n22,MYC,gene,,#ff7f0e
+n40,BRCA1,biomarker,,#2ca02c
+n2,AR,biomarker,,#2ca02c
+n45,RB1,gene,,#ff7f0e
+n56,PIK3CA,biomarker,,#2ca02c
+n58,prostate cancer,cancer_type,,#d62728
+n6,PD-L1,biomarker,,#2ca02c
+n52,cervical cancer,cancer_type,,#d62728
+n38,APC,gene,,#ff7f0e
+n33,KRAS,biomarker,,#2ca02c
+n9,EGFR,biomarker,,#2ca02c
+n29,letrozole,drug,hormone therapy,#1f77b4
+n3,lung cancer,cancer_type,,#d62728
+n23,breast cancer,cancer_type,,#d62728
+n35,colorectal cancer,cancer_type,,#d62728
+n41,osimertinib,drug,targeted therapy,#1f77b4
+n13,esophageal cancer,cancer_type,,#d62728
+n28,docetaxel,drug,chemotherapy,#1f77b4
+n47,PTEN,biomarker,,#2ca02c
+n55,erlotinib,drug,targeted therapy,#1f77b4
+n37,ROS1,biomarker,,#2ca02c
+n32,renal cell carcinoma,cancer_type,,#d62728
+n24,glioblastoma,cancer_type,,#d62728
+n27,triple-negative breast cancer,cancer_type,,#d62728
+n51,MSI,biomarker,,#2ca02c
+n1,MET,biomarker,,#2ca02c
+n34,gastric cancer,cancer_type,,#d62728
+n21,cyclophosphamide,drug,chemotherapy,#1f77b4
+n57,her2,other,,#7f7f7f
+n54,trastuzumab,drug,targeted therapy,#1f77b4
+n15,TP53,biomarker,,#2ca02c
+n50,FGFR,biomarker,,#2ca02c
+n46,JAK2,gene,,#ff7f0e
+n0,pembrolizumab,drug,immunotherapy,#1f77b4
+n43,BRAF,biomarker,,#2ca02c

@@ -1,0 +1,2838 @@
+{
+  "nodes": [
+    {
+      "id": "n20",
+      "label": "paclitaxel",
+      "type": "drug",
+      "category": "chemotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n12",
+      "label": "HER2",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n49",
+      "label": "gefitinib",
+      "type": "drug",
+      "category": "targeted therapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n59",
+      "label": "pancreatic cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n4",
+      "label": "non-small cell lung cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n5",
+      "label": "ER",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n26",
+      "label": "melanoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n53",
+      "label": "NF1",
+      "type": "gene",
+      "category": "",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "n11",
+      "label": "nivolumab",
+      "type": "drug",
+      "category": "immunotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n14",
+      "label": "ipilimumab",
+      "type": "drug",
+      "category": "immunotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n19",
+      "label": "cisplatin",
+      "type": "drug",
+      "category": "chemotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n30",
+      "label": "bladder cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n25",
+      "label": "hepatocellular carcinoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n16",
+      "label": "TMB",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n48",
+      "label": "cetuximab",
+      "type": "drug",
+      "category": "targeted therapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n36",
+      "label": "leukemia",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n18",
+      "label": "carboplatin",
+      "type": "drug",
+      "category": "chemotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n7",
+      "label": "PR",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n44",
+      "label": "head and neck cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n39",
+      "label": "endometrial cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n17",
+      "label": "atezolizumab",
+      "type": "drug",
+      "category": "immunotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n42",
+      "label": "CDKN2A",
+      "type": "gene",
+      "category": "",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "n10",
+      "label": "RET",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n31",
+      "label": "lymphoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n8",
+      "label": "ALK",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n22",
+      "label": "MYC",
+      "type": "gene",
+      "category": "",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "n40",
+      "label": "BRCA1",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n2",
+      "label": "AR",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n45",
+      "label": "RB1",
+      "type": "gene",
+      "category": "",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "n56",
+      "label": "PIK3CA",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n58",
+      "label": "prostate cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n6",
+      "label": "PD-L1",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n52",
+      "label": "cervical cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n38",
+      "label": "APC",
+      "type": "gene",
+      "category": "",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "n33",
+      "label": "KRAS",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n9",
+      "label": "EGFR",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n29",
+      "label": "letrozole",
+      "type": "drug",
+      "category": "hormone therapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n3",
+      "label": "lung cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n23",
+      "label": "breast cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n35",
+      "label": "colorectal cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n41",
+      "label": "osimertinib",
+      "type": "drug",
+      "category": "targeted therapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n13",
+      "label": "esophageal cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n28",
+      "label": "docetaxel",
+      "type": "drug",
+      "category": "chemotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n47",
+      "label": "PTEN",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n55",
+      "label": "erlotinib",
+      "type": "drug",
+      "category": "targeted therapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n37",
+      "label": "ROS1",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n32",
+      "label": "renal cell carcinoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n24",
+      "label": "glioblastoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n27",
+      "label": "triple-negative breast cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n51",
+      "label": "MSI",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n1",
+      "label": "MET",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n34",
+      "label": "gastric cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n21",
+      "label": "cyclophosphamide",
+      "type": "drug",
+      "category": "chemotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n57",
+      "label": "her2",
+      "type": "other",
+      "category": "",
+      "color": "#7f7f7f"
+    },
+    {
+      "id": "n54",
+      "label": "trastuzumab",
+      "type": "drug",
+      "category": "targeted therapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n15",
+      "label": "TP53",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n50",
+      "label": "FGFR",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n46",
+      "label": "JAK2",
+      "type": "gene",
+      "category": "",
+      "color": "#ff7f0e"
+    },
+    {
+      "id": "n0",
+      "label": "pembrolizumab",
+      "type": "drug",
+      "category": "immunotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n43",
+      "label": "BRAF",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pembrolizumab",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e0"
+    },
+    {
+      "source": "AR",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e1"
+    },
+    {
+      "source": "AR",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e2"
+    },
+    {
+      "source": "ER",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e3"
+    },
+    {
+      "source": "ER",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e4"
+    },
+    {
+      "source": "MET",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e5"
+    },
+    {
+      "source": "MET",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e6"
+    },
+    {
+      "source": "PD-L1",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e7"
+    },
+    {
+      "source": "PD-L1",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e8"
+    },
+    {
+      "source": "PR",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e9"
+    },
+    {
+      "source": "PR",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab Plus Chemotherapy Per PD-L1 Stratum In Patients With Metastatic Non-Small Cell Lung Cancer: Real-World Effectiveness Versus Trial Efficacy.. Clinical trial efficacy and real-world effect...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e10"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: PD-L1 expression guidance on sintilimab versus pembrolizumab with or without platinum-doublet chemotherapy in untreated patients with advanced non-small cell lung cancer (CTONG1901): A phase 2, random...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e11"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: PD-L1 expression guidance on sintilimab versus pembrolizumab with or without platinum-doublet chemotherapy in untreated patients with advanced non-small cell lung cancer (CTONG1901): A phase 2, random...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e12"
+    },
+    {
+      "source": "ALK",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: PD-L1 expression guidance on sintilimab versus pembrolizumab with or without platinum-doublet chemotherapy in untreated patients with advanced non-small cell lung cancer (CTONG1901): A phase 2, random...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e13"
+    },
+    {
+      "source": "ALK",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: PD-L1 expression guidance on sintilimab versus pembrolizumab with or without platinum-doublet chemotherapy in untreated patients with advanced non-small cell lung cancer (CTONG1901): A phase 2, random...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e14"
+    },
+    {
+      "source": "EGFR",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: PD-L1 expression guidance on sintilimab versus pembrolizumab with or without platinum-doublet chemotherapy in untreated patients with advanced non-small cell lung cancer (CTONG1901): A phase 2, random...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e15"
+    },
+    {
+      "source": "EGFR",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: PD-L1 expression guidance on sintilimab versus pembrolizumab with or without platinum-doublet chemotherapy in untreated patients with advanced non-small cell lung cancer (CTONG1901): A phase 2, random...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e16"
+    },
+    {
+      "source": "RET",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Clinical significance of antinuclear antibody as prognostic marker for first-line pembrolizumab in advanced non-small cell lung cancer.. The relationship between antinuclear antibody (ANA) and the eff...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e17"
+    },
+    {
+      "source": "RET",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Clinical significance of antinuclear antibody as prognostic marker for first-line pembrolizumab in advanced non-small cell lung cancer.. The relationship between antinuclear antibody (ANA) and the eff...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e18"
+    },
+    {
+      "source": "nivolumab",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Comparison of the Efficacy and Safety of Perioperative Immunochemotherapeutic Strategies for Resectable Non-small Cell Lung Cancer: a Systematic Review and Network Meta-analysis.. The aim of this netw...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e19"
+    },
+    {
+      "source": "nivolumab",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Soluble PD-L1 changes in advanced non-small cell lung cancer patients treated with PD-1 inhibitors: an individual patient data meta-analysis.. Currently, first-line immune checkpoint inhibitors (ICIs)...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e20"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e21"
+    },
+    {
+      "source": "AR",
+      "target": "esophageal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e22"
+    },
+    {
+      "source": "ER",
+      "target": "esophageal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e23"
+    },
+    {
+      "source": "HER2",
+      "target": "esophageal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e24"
+    },
+    {
+      "source": "HER2",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e25"
+    },
+    {
+      "source": "HER2",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e26"
+    },
+    {
+      "source": "MET",
+      "target": "esophageal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e27"
+    },
+    {
+      "source": "PD-L1",
+      "target": "esophageal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e28"
+    },
+    {
+      "source": "PR",
+      "target": "esophageal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Stage 4 Non-small Cell Lung Cancer With Human Epidermal Growth Factor Receptor 2 Alterations and Myocarditis Induced by Immune Checkpoint Inhibitors: A Case Report.. Immune checkpoint inhibitor (ICI)-...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e29"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "nivolumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Improving visual acuity with nivolumab plus ipilimumab plus two cycles of chemotherapy following a diagnosis of lung adenocarcinoma with choroidal metastasis: A case report and literature review.. A 7...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e30"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Improving visual acuity with nivolumab plus ipilimumab plus two cycles of chemotherapy following a diagnosis of lung adenocarcinoma with choroidal metastasis: A case report and literature review.. A 7...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e31"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Improving visual acuity with nivolumab plus ipilimumab plus two cycles of chemotherapy following a diagnosis of lung adenocarcinoma with choroidal metastasis: A case report and literature review.. A 7...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e32"
+    },
+    {
+      "source": "nivolumab",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Improving visual acuity with nivolumab plus ipilimumab plus two cycles of chemotherapy following a diagnosis of lung adenocarcinoma with choroidal metastasis: A case report and literature review.. A 7...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e33"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab plus chemotherapy in first-line metastatic non-small-cell lung cancer: results of the phase III CheckMate 227 Part 2 trial.. In CheckMate 227 Part 1, first-line nivolumab plus ipilimumab pro...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e34"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "TP53",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab plus chemotherapy in first-line metastatic non-small-cell lung cancer: results of the phase III CheckMate 227 Part 2 trial.. In CheckMate 227 Part 1, first-line nivolumab plus ipilimumab pro...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e35"
+    },
+    {
+      "source": "nivolumab",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab plus chemotherapy in first-line metastatic non-small-cell lung cancer: results of the phase III CheckMate 227 Part 2 trial.. In CheckMate 227 Part 1, first-line nivolumab plus ipilimumab pro...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e36"
+    },
+    {
+      "source": "nivolumab",
+      "target": "TP53",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab plus chemotherapy in first-line metastatic non-small-cell lung cancer: results of the phase III CheckMate 227 Part 2 trial.. In CheckMate 227 Part 1, first-line nivolumab plus ipilimumab pro...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e37"
+    },
+    {
+      "source": "TP53",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab plus chemotherapy in first-line metastatic non-small-cell lung cancer: results of the phase III CheckMate 227 Part 2 trial.. In CheckMate 227 Part 1, first-line nivolumab plus ipilimumab pro...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e38"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "TP53",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab combined with anlotinib improves therapeutic efficacy in pulmonary sarcomatoid carcinoma with TMB-H and PD-L1 expression: a case report and literature review.. Pulmonary sarcomatoid carc...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e39"
+    },
+    {
+      "source": "TMB",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab combined with anlotinib improves therapeutic efficacy in pulmonary sarcomatoid carcinoma with TMB-H and PD-L1 expression: a case report and literature review.. Pulmonary sarcomatoid carc...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e40"
+    },
+    {
+      "source": "TMB",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab combined with anlotinib improves therapeutic efficacy in pulmonary sarcomatoid carcinoma with TMB-H and PD-L1 expression: a case report and literature review.. Pulmonary sarcomatoid carc...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e41"
+    },
+    {
+      "source": "TP53",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab combined with anlotinib improves therapeutic efficacy in pulmonary sarcomatoid carcinoma with TMB-H and PD-L1 expression: a case report and literature review.. Pulmonary sarcomatoid carc...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e42"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "ipilimumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Cost-effectiveness of first-line immunotherapy for advanced non-small cell lung cancer with different PD-L1 expression levels: A comprehensive overview.. Immunotherapies can substantially improve trea...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e43"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "nivolumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Cost-effectiveness of first-line immunotherapy for advanced non-small cell lung cancer with different PD-L1 expression levels: A comprehensive overview.. Immunotherapies can substantially improve trea...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e44"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Cost-effectiveness of first-line immunotherapy for advanced non-small cell lung cancer with different PD-L1 expression levels: A comprehensive overview.. Immunotherapies can substantially improve trea...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e45"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Cost-effectiveness of first-line immunotherapy for advanced non-small cell lung cancer with different PD-L1 expression levels: A comprehensive overview.. Immunotherapies can substantially improve trea...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e46"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Comparison of the profiles of first-line PD-1/PD-L1 inhibitors for advanced NSCLC lacking driver gene mutations: a systematic review and Bayesian network meta-analysis.. Numerous first-line immune che...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e47"
+    },
+    {
+      "source": "carboplatin",
+      "target": "cisplatin",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e48"
+    },
+    {
+      "source": "carboplatin",
+      "target": "ipilimumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e49"
+    },
+    {
+      "source": "carboplatin",
+      "target": "nivolumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e50"
+    },
+    {
+      "source": "carboplatin",
+      "target": "paclitaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e51"
+    },
+    {
+      "source": "cisplatin",
+      "target": "ipilimumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e52"
+    },
+    {
+      "source": "cisplatin",
+      "target": "nivolumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e53"
+    },
+    {
+      "source": "cisplatin",
+      "target": "paclitaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e54"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "paclitaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e55"
+    },
+    {
+      "source": "nivolumab",
+      "target": "paclitaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e56"
+    },
+    {
+      "source": "carboplatin",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e57"
+    },
+    {
+      "source": "cisplatin",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e58"
+    },
+    {
+      "source": "paclitaxel",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Multi-Center Real-World Outcomes of Nivolumab Plus Ipilimumab and Chemotherapy in Patients with Metastatic Non-Small-Cell Lung Cancer.. Immune checkpoint inhibitors have become the standard of care in...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e59"
+    },
+    {
+      "source": "cyclophosphamide",
+      "target": "nivolumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab after Induction Chemotherapy in Previously Treated Non-Small-Cell Lung Cancer Patients with Low PD-L1 Expression.. This study aimed to investigate whether cyclophosphamide (C) and adriamycin...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e60"
+    },
+    {
+      "source": "cyclophosphamide",
+      "target": "MYC",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab after Induction Chemotherapy in Previously Treated Non-Small-Cell Lung Cancer Patients with Low PD-L1 Expression.. This study aimed to investigate whether cyclophosphamide (C) and adriamycin...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e61"
+    },
+    {
+      "source": "nivolumab",
+      "target": "MYC",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab after Induction Chemotherapy in Previously Treated Non-Small-Cell Lung Cancer Patients with Low PD-L1 Expression.. This study aimed to investigate whether cyclophosphamide (C) and adriamycin...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e62"
+    },
+    {
+      "source": "AR",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e63"
+    },
+    {
+      "source": "AR",
+      "target": "glioblastoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e64"
+    },
+    {
+      "source": "AR",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e65"
+    },
+    {
+      "source": "AR",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e66"
+    },
+    {
+      "source": "AR",
+      "target": "triple-negative breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e67"
+    },
+    {
+      "source": "ER",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e68"
+    },
+    {
+      "source": "ER",
+      "target": "glioblastoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e69"
+    },
+    {
+      "source": "ER",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e70"
+    },
+    {
+      "source": "ER",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e71"
+    },
+    {
+      "source": "ER",
+      "target": "triple-negative breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e72"
+    },
+    {
+      "source": "MET",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e73"
+    },
+    {
+      "source": "MET",
+      "target": "glioblastoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e74"
+    },
+    {
+      "source": "MET",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e75"
+    },
+    {
+      "source": "MET",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e76"
+    },
+    {
+      "source": "MET",
+      "target": "triple-negative breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e77"
+    },
+    {
+      "source": "PD-L1",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e78"
+    },
+    {
+      "source": "PD-L1",
+      "target": "glioblastoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e79"
+    },
+    {
+      "source": "PD-L1",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e80"
+    },
+    {
+      "source": "PD-L1",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e81"
+    },
+    {
+      "source": "PD-L1",
+      "target": "triple-negative breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e82"
+    },
+    {
+      "source": "PR",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e83"
+    },
+    {
+      "source": "PR",
+      "target": "glioblastoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e84"
+    },
+    {
+      "source": "PR",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e85"
+    },
+    {
+      "source": "PR",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e86"
+    },
+    {
+      "source": "PR",
+      "target": "triple-negative breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Cancer cell-intrinsic PD-1: Its role in malignant progression and immunotherapy.. Programmed cell death protein-1 (PD-1), also called CD279, is coded by the PDCD1 gene and is constitutively expressed ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e87"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "docetaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Efficacy and safety of immune checkpoint inhibitors for advanced non-small cell lung cancer with or without PD-L1 selection: A systematic review and network meta-analysis.. Immune checkpoint inhibitor...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e88"
+    },
+    {
+      "source": "docetaxel",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Efficacy and safety of immune checkpoint inhibitors for advanced non-small cell lung cancer with or without PD-L1 selection: A systematic review and network meta-analysis.. Immune checkpoint inhibitor...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e89"
+    },
+    {
+      "source": "docetaxel",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Efficacy and safety of immune checkpoint inhibitors for advanced non-small cell lung cancer with or without PD-L1 selection: A systematic review and network meta-analysis.. Immune checkpoint inhibitor...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e90"
+    },
+    {
+      "source": "docetaxel",
+      "target": "nivolumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Durable Response to Maintenance Treatment Comprised of Viagenpumatucel-L, Nivolumab, Ramucirumab, and Docetaxel in a PD-L1-Low Advanced-Stage Non-Small-Cell Lung Cancer: A Case Report.. Checkpoint inh...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e91"
+    },
+    {
+      "source": "letrozole",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Autocrine 17-\u03b2-Estradiol/Estrogen Receptor-\u03b1 Loop Determines the Response to Immune Checkpoint Inhibitors in Non-Small Cell Lung Cancer.. The response to immune checkpoint inhibitors (ICI) often diffe...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e92"
+    },
+    {
+      "source": "letrozole",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Autocrine 17-\u03b2-Estradiol/Estrogen Receptor-\u03b1 Loop Determines the Response to Immune Checkpoint Inhibitors in Non-Small Cell Lung Cancer.. The response to immune checkpoint inhibitors (ICI) often diffe...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e93"
+    },
+    {
+      "source": "letrozole",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Autocrine 17-\u03b2-Estradiol/Estrogen Receptor-\u03b1 Loop Determines the Response to Immune Checkpoint Inhibitors in Non-Small Cell Lung Cancer.. The response to immune checkpoint inhibitors (ICI) often diffe...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e94"
+    },
+    {
+      "source": "AR",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Assessment of Tumor Mutational Burden and Outcomes in Patients With Diverse Advanced Cancers Treated With Immunotherapy.. There are few studies assessing the association of tumor mutational burden (TM...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e95"
+    },
+    {
+      "source": "ER",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Assessment of Tumor Mutational Burden and Outcomes in Patients With Diverse Advanced Cancers Treated With Immunotherapy.. There are few studies assessing the association of tumor mutational burden (TM...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e96"
+    },
+    {
+      "source": "PD-L1",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Assessment of Tumor Mutational Burden and Outcomes in Patients With Diverse Advanced Cancers Treated With Immunotherapy.. There are few studies assessing the association of tumor mutational burden (TM...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e97"
+    },
+    {
+      "source": "PR",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Assessment of Tumor Mutational Burden and Outcomes in Patients With Diverse Advanced Cancers Treated With Immunotherapy.. There are few studies assessing the association of tumor mutational burden (TM...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e98"
+    },
+    {
+      "source": "RET",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Assessment of Tumor Mutational Burden and Outcomes in Patients With Diverse Advanced Cancers Treated With Immunotherapy.. There are few studies assessing the association of tumor mutational burden (TM...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e99"
+    },
+    {
+      "source": "TMB",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Assessment of Tumor Mutational Burden and Outcomes in Patients With Diverse Advanced Cancers Treated With Immunotherapy.. There are few studies assessing the association of tumor mutational burden (TM...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e100"
+    },
+    {
+      "source": "PR",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Case report: anaplastic lymphoma kinase (. The presence of anaplastic lymphoma kinase (...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e101"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "cisplatin",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Immune checkpoint inhibitors modulate the cytotoxic effect of chemotherapy in lung adenocarcinoma cells.. Immunotherapy using immune checkpoint inhibitors (ICIs) has significantly improved survival in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e102"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "paclitaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Immune checkpoint inhibitors modulate the cytotoxic effect of chemotherapy in lung adenocarcinoma cells.. Immunotherapy using immune checkpoint inhibitors (ICIs) has significantly improved survival in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e103"
+    },
+    {
+      "source": "cisplatin",
+      "target": "docetaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Immune checkpoint inhibitors modulate the cytotoxic effect of chemotherapy in lung adenocarcinoma cells.. Immunotherapy using immune checkpoint inhibitors (ICIs) has significantly improved survival in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e104"
+    },
+    {
+      "source": "cisplatin",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Immune checkpoint inhibitors modulate the cytotoxic effect of chemotherapy in lung adenocarcinoma cells.. Immunotherapy using immune checkpoint inhibitors (ICIs) has significantly improved survival in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e105"
+    },
+    {
+      "source": "docetaxel",
+      "target": "paclitaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Immune checkpoint inhibitors modulate the cytotoxic effect of chemotherapy in lung adenocarcinoma cells.. Immunotherapy using immune checkpoint inhibitors (ICIs) has significantly improved survival in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e106"
+    },
+    {
+      "source": "paclitaxel",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Immune checkpoint inhibitors modulate the cytotoxic effect of chemotherapy in lung adenocarcinoma cells.. Immunotherapy using immune checkpoint inhibitors (ICIs) has significantly improved survival in...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e107"
+    },
+    {
+      "source": "carboplatin",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab plus pemetrexed-carboplatin combination in first-line treatment of advanced non-squamous non-small cell lung cancer: a multicenter real-life study (CAP29).. Pembrolizumab combined with c...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e108"
+    },
+    {
+      "source": "AR",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Differential treatment responses to immune checkpoint inhibitor (ICI) therapy in a case of multiple primary malignancies: the programmed death ligand-1 (PD-L1) negative ureteral and lung metastasis fr...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e109"
+    },
+    {
+      "source": "ER",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Differential treatment responses to immune checkpoint inhibitor (ICI) therapy in a case of multiple primary malignancies: the programmed death ligand-1 (PD-L1) negative ureteral and lung metastasis fr...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e110"
+    },
+    {
+      "source": "MET",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Differential treatment responses to immune checkpoint inhibitor (ICI) therapy in a case of multiple primary malignancies: the programmed death ligand-1 (PD-L1) negative ureteral and lung metastasis fr...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e111"
+    },
+    {
+      "source": "PD-L1",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Differential treatment responses to immune checkpoint inhibitor (ICI) therapy in a case of multiple primary malignancies: the programmed death ligand-1 (PD-L1) negative ureteral and lung metastasis fr...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e112"
+    },
+    {
+      "source": "PR",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Differential treatment responses to immune checkpoint inhibitor (ICI) therapy in a case of multiple primary malignancies: the programmed death ligand-1 (PD-L1) negative ureteral and lung metastasis fr...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e113"
+    },
+    {
+      "source": "RET",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Differential treatment responses to immune checkpoint inhibitor (ICI) therapy in a case of multiple primary malignancies: the programmed death ligand-1 (PD-L1) negative ureteral and lung metastasis fr...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e114"
+    },
+    {
+      "source": "docetaxel",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Study protocol of KeyPemls-004: A phase 2 study of pembrolizumab in combination with plinabulin and docetaxel in previously treated patients with metastatic non-small cell lung cancer and progressive ...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e115"
+    },
+    {
+      "source": "docetaxel",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Study protocol of KeyPemls-004: A phase 2 study of pembrolizumab in combination with plinabulin and docetaxel in previously treated patients with metastatic non-small cell lung cancer and progressive ...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e116"
+    },
+    {
+      "source": "ALK",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study protocol of KeyPemls-004: A phase 2 study of pembrolizumab in combination with plinabulin and docetaxel in previously treated patients with metastatic non-small cell lung cancer and progressive ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e117"
+    },
+    {
+      "source": "AR",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study protocol of KeyPemls-004: A phase 2 study of pembrolizumab in combination with plinabulin and docetaxel in previously treated patients with metastatic non-small cell lung cancer and progressive ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e118"
+    },
+    {
+      "source": "EGFR",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study protocol of KeyPemls-004: A phase 2 study of pembrolizumab in combination with plinabulin and docetaxel in previously treated patients with metastatic non-small cell lung cancer and progressive ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e119"
+    },
+    {
+      "source": "ER",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study protocol of KeyPemls-004: A phase 2 study of pembrolizumab in combination with plinabulin and docetaxel in previously treated patients with metastatic non-small cell lung cancer and progressive ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e120"
+    },
+    {
+      "source": "MET",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study protocol of KeyPemls-004: A phase 2 study of pembrolizumab in combination with plinabulin and docetaxel in previously treated patients with metastatic non-small cell lung cancer and progressive ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e121"
+    },
+    {
+      "source": "PD-L1",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study protocol of KeyPemls-004: A phase 2 study of pembrolizumab in combination with plinabulin and docetaxel in previously treated patients with metastatic non-small cell lung cancer and progressive ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e122"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "KRAS",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Associations of tissue tumor mutational burden and mutational status with clinical outcomes in KEYNOTE-042: pembrolizumab versus chemotherapy for advanced PD-L1-positive NSCLC.. We evaluated whether t...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e123"
+    },
+    {
+      "source": "KRAS",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Associations of tissue tumor mutational burden and mutational status with clinical outcomes in KEYNOTE-042: pembrolizumab versus chemotherapy for advanced PD-L1-positive NSCLC.. We evaluated whether t...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e124"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Cost-effectiveness of atezolizumab versus pembrolizumab as first-line treatment in PD-L1-positive advanced non-small-cell lung cancer in Spain.. Atezolizumab has recently been approved for first-line ...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e125"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Cost-effectiveness of atezolizumab versus pembrolizumab as first-line treatment in PD-L1-positive advanced non-small-cell lung cancer in Spain.. Atezolizumab has recently been approved for first-line ...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e126"
+    },
+    {
+      "source": "HER2",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Combination of chemotherapeutic agents and biological response modifiers (immunotherapy) in triple-negative/Her2(\u2009+) breast cancer, multiple myeloma, and non-small-cell lung cancer.. Biological respon...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e127"
+    },
+    {
+      "source": "AR",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Initial Therapeutic Approach with Pembrolizumab in Synchronous Multiple Cancers, Including Non-Small Cell Lung Cancer, Highly Positive for Programmed Death-Ligand 1 Expression.. Treatment of synchrono...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e128"
+    },
+    {
+      "source": "ER",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Initial Therapeutic Approach with Pembrolizumab in Synchronous Multiple Cancers, Including Non-Small Cell Lung Cancer, Highly Positive for Programmed Death-Ligand 1 Expression.. Treatment of synchrono...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e129"
+    },
+    {
+      "source": "MET",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Initial Therapeutic Approach with Pembrolizumab in Synchronous Multiple Cancers, Including Non-Small Cell Lung Cancer, Highly Positive for Programmed Death-Ligand 1 Expression.. Treatment of synchrono...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e130"
+    },
+    {
+      "source": "PD-L1",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Initial Therapeutic Approach with Pembrolizumab in Synchronous Multiple Cancers, Including Non-Small Cell Lung Cancer, Highly Positive for Programmed Death-Ligand 1 Expression.. Treatment of synchrono...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e131"
+    },
+    {
+      "source": "PR",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Initial Therapeutic Approach with Pembrolizumab in Synchronous Multiple Cancers, Including Non-Small Cell Lung Cancer, Highly Positive for Programmed Death-Ligand 1 Expression.. Treatment of synchrono...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e132"
+    },
+    {
+      "source": "cisplatin",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Adjuvant Immunotherapy in Patients with Early-Stage Non-small Cell Lung Cancer and Future Directions.. While cisplatin-based adjuvant chemotherapy has been the standard of care for the past two decade...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e133"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "MYC",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Gastrointestinal toxicity of systemic oncology immunotherapy.. Systemic anti-cancer immunotherapy provides a substantial progress in options of current oncology treatment. Yet, this therapeutic approa...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e134"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "MYC",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Gastrointestinal toxicity of systemic oncology immunotherapy.. Systemic anti-cancer immunotherapy provides a substantial progress in options of current oncology treatment. Yet, this therapeutic approa...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e135"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "MYC",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Gastrointestinal toxicity of systemic oncology immunotherapy.. Systemic anti-cancer immunotherapy provides a substantial progress in options of current oncology treatment. Yet, this therapeutic approa...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e136"
+    },
+    {
+      "source": "AR",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Gastrointestinal toxicity of systemic oncology immunotherapy.. Systemic anti-cancer immunotherapy provides a substantial progress in options of current oncology treatment. Yet, this therapeutic approa...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e137"
+    },
+    {
+      "source": "ER",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Gastrointestinal toxicity of systemic oncology immunotherapy.. Systemic anti-cancer immunotherapy provides a substantial progress in options of current oncology treatment. Yet, this therapeutic approa...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e138"
+    },
+    {
+      "source": "MET",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Gastrointestinal toxicity of systemic oncology immunotherapy.. Systemic anti-cancer immunotherapy provides a substantial progress in options of current oncology treatment. Yet, this therapeutic approa...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e139"
+    },
+    {
+      "source": "PD-L1",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Gastrointestinal toxicity of systemic oncology immunotherapy.. Systemic anti-cancer immunotherapy provides a substantial progress in options of current oncology treatment. Yet, this therapeutic approa...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e140"
+    },
+    {
+      "source": "PR",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Gastrointestinal toxicity of systemic oncology immunotherapy.. Systemic anti-cancer immunotherapy provides a substantial progress in options of current oncology treatment. Yet, this therapeutic approa...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e141"
+    },
+    {
+      "source": "AR",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of Acute Adult T-cell Leukemia Following PD-1 Blockade Therapy for Lung Cancer.. Immune checkpoint inhibitors (ICIs) are widely used for the treatment of various cancers. However, paradoxi...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e142"
+    },
+    {
+      "source": "ER",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of Acute Adult T-cell Leukemia Following PD-1 Blockade Therapy for Lung Cancer.. Immune checkpoint inhibitors (ICIs) are widely used for the treatment of various cancers. However, paradoxi...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e143"
+    },
+    {
+      "source": "PD-L1",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of Acute Adult T-cell Leukemia Following PD-1 Blockade Therapy for Lung Cancer.. Immune checkpoint inhibitors (ICIs) are widely used for the treatment of various cancers. However, paradoxi...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e144"
+    },
+    {
+      "source": "PR",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of Acute Adult T-cell Leukemia Following PD-1 Blockade Therapy for Lung Cancer.. Immune checkpoint inhibitors (ICIs) are widely used for the treatment of various cancers. However, paradoxi...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e145"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "ROS1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Validation of E1L3N antibody for PD-L1 detection and prediction of pembrolizumab response in non-small-cell lung cancer.. The programmed death-ligand 1 (PD-L1) 22C3 assay is one of the approved compan...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e146"
+    },
+    {
+      "source": "ROS1",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Validation of E1L3N antibody for PD-L1 detection and prediction of pembrolizumab response in non-small-cell lung cancer.. The programmed death-ligand 1 (PD-L1) 22C3 assay is one of the approved compan...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e147"
+    },
+    {
+      "source": "ROS1",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Validation of E1L3N antibody for PD-L1 detection and prediction of pembrolizumab response in non-small-cell lung cancer.. The programmed death-ligand 1 (PD-L1) 22C3 assay is one of the approved compan...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e148"
+    },
+    {
+      "source": "nivolumab",
+      "target": "APC",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Prognostic value of hematologic parameters in advanced non-small cell lung cancer patients receiving anti-PD-1 inhibitors.. The association between hematologic parameters and anti-programmed death-1 (...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e149"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "APC",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Prognostic value of hematologic parameters in advanced non-small cell lung cancer patients receiving anti-PD-1 inhibitors.. The association between hematologic parameters and anti-programmed death-1 (...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e150"
+    },
+    {
+      "source": "KRAS",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Impact of KRAS G12C mutation in patients with advanced non-squamous non-small cell lung cancer treated with first-line pembrolizumab monotherapy.. Few data are available on the impact of KRAS mutation...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e151"
+    },
+    {
+      "source": "RET",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Immune checkpoint inhibitors in patients aged 80 or older with advanced non-small cell lung cancer or melanoma: a real-life multicentre study.. Data regarding characteristics, safety and survival outc...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e152"
+    },
+    {
+      "source": "AR",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Dostarlimab: A breakthrough in the field of oncology.. Of the 19 million cancer cases reported worldwide in 2020, colorectal cancer (CRC) has a 10% prevalence and 9.4% mortality. A critical lack of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e153"
+    },
+    {
+      "source": "ER",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Dostarlimab: A breakthrough in the field of oncology.. Of the 19 million cancer cases reported worldwide in 2020, colorectal cancer (CRC) has a 10% prevalence and 9.4% mortality. A critical lack of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e154"
+    },
+    {
+      "source": "MET",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Dostarlimab: A breakthrough in the field of oncology.. Of the 19 million cancer cases reported worldwide in 2020, colorectal cancer (CRC) has a 10% prevalence and 9.4% mortality. A critical lack of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e155"
+    },
+    {
+      "source": "PD-L1",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Dostarlimab: A breakthrough in the field of oncology.. Of the 19 million cancer cases reported worldwide in 2020, colorectal cancer (CRC) has a 10% prevalence and 9.4% mortality. A critical lack of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e156"
+    },
+    {
+      "source": "PR",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Dostarlimab: A breakthrough in the field of oncology.. Of the 19 million cancer cases reported worldwide in 2020, colorectal cancer (CRC) has a 10% prevalence and 9.4% mortality. A critical lack of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e157"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "BRCA1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Does Molecular Profiling of . Background: Several studies suggest that patients with KRAS-mutant NSCLC fail to benefit from standard systemic therapies and do not respond to EGFR inhibitors. Most rece...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e158"
+    },
+    {
+      "source": "docetaxel",
+      "target": "ipilimumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Therapy for Stage IV Non-Small-Cell Lung Cancer Without Driver Alterations: ASCO Living Guideline.. To provide evidence-based recommendations updating the 2020 ASCO and Ontario Health (Cancer Care Ont...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e159"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "osimertinib",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Targeted Therapy and Immunotherapy in Early-Stage Non-Small Cell Lung Cancer: Current Evidence and Ongoing Trials.. The scenario of neoadjuvant and adjuvant settings in non-small cell lung cancer (NSC...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e160"
+    },
+    {
+      "source": "nivolumab",
+      "target": "osimertinib",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Targeted Therapy and Immunotherapy in Early-Stage Non-Small Cell Lung Cancer: Current Evidence and Ongoing Trials.. The scenario of neoadjuvant and adjuvant settings in non-small cell lung cancer (NSC...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e161"
+    },
+    {
+      "source": "osimertinib",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Targeted Therapy and Immunotherapy in Early-Stage Non-Small Cell Lung Cancer: Current Evidence and Ongoing Trials.. The scenario of neoadjuvant and adjuvant settings in non-small cell lung cancer (NSC...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e162"
+    },
+    {
+      "source": "osimertinib",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Targeted Therapy and Immunotherapy in Early-Stage Non-Small Cell Lung Cancer: Current Evidence and Ongoing Trials.. The scenario of neoadjuvant and adjuvant settings in non-small cell lung cancer (NSC...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e163"
+    },
+    {
+      "source": "carboplatin",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Deletions on 9p21 are associated with worse outcomes after anti-PD-1/PD-L1 monotherapy but not chemoimmunotherapy.. NCCN guidelines for first-line treatment of advanced non-squamous non-small-cell lun...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e164"
+    },
+    {
+      "source": "carboplatin",
+      "target": "CDKN2A",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Deletions on 9p21 are associated with worse outcomes after anti-PD-1/PD-L1 monotherapy but not chemoimmunotherapy.. NCCN guidelines for first-line treatment of advanced non-squamous non-small-cell lun...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e165"
+    },
+    {
+      "source": "carboplatin",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Deletions on 9p21 are associated with worse outcomes after anti-PD-1/PD-L1 monotherapy but not chemoimmunotherapy.. NCCN guidelines for first-line treatment of advanced non-squamous non-small-cell lun...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e166"
+    },
+    {
+      "source": "cisplatin",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Deletions on 9p21 are associated with worse outcomes after anti-PD-1/PD-L1 monotherapy but not chemoimmunotherapy.. NCCN guidelines for first-line treatment of advanced non-squamous non-small-cell lun...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e167"
+    },
+    {
+      "source": "cisplatin",
+      "target": "CDKN2A",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Deletions on 9p21 are associated with worse outcomes after anti-PD-1/PD-L1 monotherapy but not chemoimmunotherapy.. NCCN guidelines for first-line treatment of advanced non-squamous non-small-cell lun...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e168"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "CDKN2A",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Deletions on 9p21 are associated with worse outcomes after anti-PD-1/PD-L1 monotherapy but not chemoimmunotherapy.. NCCN guidelines for first-line treatment of advanced non-squamous non-small-cell lun...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e169"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "BRAF",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Very high PD-L1 expression as a prognostic indicator of overall survival among patients with advanced non-small cell lung cancer receiving anti-PD-(L)1 monotherapies in routine practice.. Programmed d...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e170"
+    },
+    {
+      "source": "BRAF",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Very high PD-L1 expression as a prognostic indicator of overall survival among patients with advanced non-small cell lung cancer receiving anti-PD-(L)1 monotherapies in routine practice.. Programmed d...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e171"
+    },
+    {
+      "source": "BRAF",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Very high PD-L1 expression as a prognostic indicator of overall survival among patients with advanced non-small cell lung cancer receiving anti-PD-(L)1 monotherapies in routine practice.. Programmed d...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e172"
+    },
+    {
+      "source": "AR",
+      "target": "head and neck cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Prolonged Response of Metastatic Programmed Death-Ligand 1 (PD-L1) Negative Basaloid Squamous Cell Carcinoma of the Lung to Maintenance Immunotherapy.. Basaloid squamous cell carcinoma (BSCC) is a var...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e173"
+    },
+    {
+      "source": "ER",
+      "target": "head and neck cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Prolonged Response of Metastatic Programmed Death-Ligand 1 (PD-L1) Negative Basaloid Squamous Cell Carcinoma of the Lung to Maintenance Immunotherapy.. Basaloid squamous cell carcinoma (BSCC) is a var...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e174"
+    },
+    {
+      "source": "MET",
+      "target": "head and neck cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Prolonged Response of Metastatic Programmed Death-Ligand 1 (PD-L1) Negative Basaloid Squamous Cell Carcinoma of the Lung to Maintenance Immunotherapy.. Basaloid squamous cell carcinoma (BSCC) is a var...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e175"
+    },
+    {
+      "source": "PD-L1",
+      "target": "head and neck cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Prolonged Response of Metastatic Programmed Death-Ligand 1 (PD-L1) Negative Basaloid Squamous Cell Carcinoma of the Lung to Maintenance Immunotherapy.. Basaloid squamous cell carcinoma (BSCC) is a var...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e176"
+    },
+    {
+      "source": "PR",
+      "target": "head and neck cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Prolonged Response of Metastatic Programmed Death-Ligand 1 (PD-L1) Negative Basaloid Squamous Cell Carcinoma of the Lung to Maintenance Immunotherapy.. Basaloid squamous cell carcinoma (BSCC) is a var...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e177"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "RB1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Clinicopathologic and Genomic Landscape of Non-Small Cell Lung Cancer Brain Metastases.. In patients with non-small cell lung cancer (NSCLC), 10%-40% will eventually develop brain metastases. We prese...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e178"
+    },
+    {
+      "source": "osimertinib",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Neoadjuvant and Adjuvant Systemic Therapy for Early-Stage Non-small-Cell Lung Cancer.. Approximately a third of patients with non-small-cell lung cancer (NSCLC) present with surgically resectable dise...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e179"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "carboplatin",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: [A Case of Non-Small Cell Lung Cancer Successfully Treated with Anti-PD-L1 Therapy after Exacerbation Caused by Anti-PD-1 Therapy].. A 52-year-old male was diagnosed with cT4N3M1b, cStage \u2163 adenocarci...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e180"
+    },
+    {
+      "source": "carboplatin",
+      "target": "docetaxel",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: [A Case of Non-Small Cell Lung Cancer Successfully Treated with Anti-PD-L1 Therapy after Exacerbation Caused by Anti-PD-1 Therapy].. A 52-year-old male was diagnosed with cT4N3M1b, cStage \u2163 adenocarci...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e181"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "JAK2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Gene expression profile of high PD-L1 non-small cell lung cancers refractory to pembrolizumab.. Despite high expression of PD-L1, around half of advanced non-small cell lung cancer (NSCLC) will not ex...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e182"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "PTEN",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Gene expression profile of high PD-L1 non-small cell lung cancers refractory to pembrolizumab.. Despite high expression of PD-L1, around half of advanced non-small cell lung cancer (NSCLC) will not ex...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e183"
+    },
+    {
+      "source": "PTEN",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Gene expression profile of high PD-L1 non-small cell lung cancers refractory to pembrolizumab.. Despite high expression of PD-L1, around half of advanced non-small cell lung cancer (NSCLC) will not ex...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e184"
+    },
+    {
+      "source": "PTEN",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Gene expression profile of high PD-L1 non-small cell lung cancers refractory to pembrolizumab.. Despite high expression of PD-L1, around half of advanced non-small cell lung cancer (NSCLC) will not ex...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e185"
+    },
+    {
+      "source": "cetuximab",
+      "target": "nivolumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Anti-tumor activity of cetuximab plus avelumab in non-small cell lung cancer patients involves innate immunity activation: findings from the CAVE-Lung trial.. We recently conducted Cetuximab-AVElumab-...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e186"
+    },
+    {
+      "source": "cetuximab",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Anti-tumor activity of cetuximab plus avelumab in non-small cell lung cancer patients involves innate immunity activation: findings from the CAVE-Lung trial.. We recently conducted Cetuximab-AVElumab-...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e187"
+    },
+    {
+      "source": "cetuximab",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Anti-tumor activity of cetuximab plus avelumab in non-small cell lung cancer patients involves innate immunity activation: findings from the CAVE-Lung trial.. We recently conducted Cetuximab-AVElumab-...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e188"
+    },
+    {
+      "source": "cisplatin",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Case Report: Tumor Microenvironment Characteristics in a Patient With HER2 Mutant Lung Squamous Cell Carcinoma Harboring High PD-L1 Expression Who Presented Hyperprogressive Disease.. High PD-L1 expre...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e189"
+    },
+    {
+      "source": "docetaxel",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Case Report: Tumor Microenvironment Characteristics in a Patient With HER2 Mutant Lung Squamous Cell Carcinoma Harboring High PD-L1 Expression Who Presented Hyperprogressive Disease.. High PD-L1 expre...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e190"
+    },
+    {
+      "source": "RET",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Integrin signaling gene alterations and outcomes of cancer patients receiving immune checkpoint inhibitors.. Immune evasion is a hallmark of cancer and is associated with resistance to PD-1/PD-L1 and ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e191"
+    },
+    {
+      "source": "gefitinib",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Clinical Effectiveness of Immune Checkpoint Inhibitors in Non-Small-Cell Lung Cancer with a Poor Performance Status.. Immune checkpoint inhibitors (ICIs) are standard treatments for patients with lung...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e192"
+    },
+    {
+      "source": "FGFR",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Case Report: Anlotinib Reverses Nivolumab Resistance in Advanced Primary Pulmonary Lymphoepithelioma-Like Carcinoma With FGFR3 Gene Amplification.. Primary pulmonary lymphoepithelioma-like carcinoma (...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e193"
+    },
+    {
+      "source": "FGFR",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Case Report: Anlotinib Reverses Nivolumab Resistance in Advanced Primary Pulmonary Lymphoepithelioma-Like Carcinoma With FGFR3 Gene Amplification.. Primary pulmonary lymphoepithelioma-like carcinoma (...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e194"
+    },
+    {
+      "source": "nivolumab",
+      "target": "ipilimumab",
+      "type": "drug_synergy",
+      "evidence": "Pattern match ((?:combination|co[\\s-]?administration)\\s+of\\s+(?P<drug1>\\w+)\\s+and\\s+(?P<drug2>\\w+)): combination of nivolumab and ipilimumab drugs, smokers had, on average, reduced HR and FE...",
+      "source_type": "pattern",
+      "score": 0.8,
+      "id": "e195"
+    },
+    {
+      "source": "nivolumab",
+      "target": "ipilimumab",
+      "type": "drug_combination_regimen",
+      "evidence": "combination of nivolumab and ipilimumab drugs, smokers had, on average, reduced HR and FE model meta-analysis values (0.257 and 0.141), res",
+      "source_type": "pattern",
+      "score": 0.9,
+      "id": "e196"
+    },
+    {
+      "source": "cisplatin",
+      "target": "KRAS",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Phase 1, pharmacogenomic, dose-expansion study of pegargiminase plus pemetrexed and cisplatin in patients with ASS1-deficient non-squamous non-small cell lung cancer.. We evaluated the arginine-deplet...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e197"
+    },
+    {
+      "source": "MSI",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Poor performance status patient with long-lasting major response to pembrolizumab in advanced non-small-cell lung cancer with coexisting POLE mutation and deficient mismatch repair pathway.. Immunothe...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e198"
+    },
+    {
+      "source": "AR",
+      "target": "cervical cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Early presentation of pembrolizumab-associated pneumonitis.. Pembrolizumab is a selective anti-PD-L1 humanised monoclonal antibody approved by the Food and Drug Administration for treating multiple ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e199"
+    },
+    {
+      "source": "ER",
+      "target": "cervical cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Early presentation of pembrolizumab-associated pneumonitis.. Pembrolizumab is a selective anti-PD-L1 humanised monoclonal antibody approved by the Food and Drug Administration for treating multiple ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e200"
+    },
+    {
+      "source": "PD-L1",
+      "target": "cervical cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Early presentation of pembrolizumab-associated pneumonitis.. Pembrolizumab is a selective anti-PD-L1 humanised monoclonal antibody approved by the Food and Drug Administration for treating multiple ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e201"
+    },
+    {
+      "source": "PR",
+      "target": "cervical cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Early presentation of pembrolizumab-associated pneumonitis.. Pembrolizumab is a selective anti-PD-L1 humanised monoclonal antibody approved by the Food and Drug Administration for treating multiple ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e202"
+    },
+    {
+      "source": "gefitinib",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Case Report: Re-Sensitization to Gefitinib in Lung Adenocarcinoma Harboring EGFR Mutation and High PD-L1 Expression After Immunotherapy Resistance, Which Finally Transform Into Small Cell Carcinoma.. ...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e203"
+    },
+    {
+      "source": "carboplatin",
+      "target": "ROS1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab with carboplatin, paclitaxel, and bevacizumab for first-line treatment of advanced nonsquamous non-small-cell lung cancer.. This international, randomized, double-blind phase III study (ONO-...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e204"
+    },
+    {
+      "source": "nivolumab",
+      "target": "ROS1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab with carboplatin, paclitaxel, and bevacizumab for first-line treatment of advanced nonsquamous non-small-cell lung cancer.. This international, randomized, double-blind phase III study (ONO-...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e205"
+    },
+    {
+      "source": "paclitaxel",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab with carboplatin, paclitaxel, and bevacizumab for first-line treatment of advanced nonsquamous non-small-cell lung cancer.. This international, randomized, double-blind phase III study (ONO-...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e206"
+    },
+    {
+      "source": "paclitaxel",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab with carboplatin, paclitaxel, and bevacizumab for first-line treatment of advanced nonsquamous non-small-cell lung cancer.. This international, randomized, double-blind phase III study (ONO-...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e207"
+    },
+    {
+      "source": "paclitaxel",
+      "target": "ROS1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab with carboplatin, paclitaxel, and bevacizumab for first-line treatment of advanced nonsquamous non-small-cell lung cancer.. This international, randomized, double-blind phase III study (ONO-...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e208"
+    },
+    {
+      "source": "RET",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: [A Case Report of Checkpoint Inhibitor Pneumonitis Caused by PD-1\u2029Antibody-Safety and Effectiveness of Pirfenidone].. Immune checkpoint inhibitor associated pneumonia (CIP) is a serious side effect of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e209"
+    },
+    {
+      "source": "ROS1",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: [A Case Report of Checkpoint Inhibitor Pneumonitis Caused by PD-1\u2029Antibody-Safety and Effectiveness of Pirfenidone].. Immune checkpoint inhibitor associated pneumonia (CIP) is a serious side effect of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e210"
+    },
+    {
+      "source": "nivolumab",
+      "target": "docetaxel",
+      "type": "drug_synergy",
+      "evidence": "Pattern match ((?:combination|co[\\s-]?administration)\\s+of\\s+(?P<drug1>\\w+)\\s+and\\s+(?P<drug2>\\w+)): combination of nivolumab and docetaxel demonstrated a meaningful improvement in progress...",
+      "source_type": "pattern",
+      "score": 0.8,
+      "id": "e211"
+    },
+    {
+      "source": "nivolumab",
+      "target": "docetaxel",
+      "type": "drug_combination_regimen",
+      "evidence": "combination of nivolumab and docetaxel demonstrated a meaningful improvement in progression-free survival and overall survival compared to",
+      "source_type": "pattern",
+      "score": 0.9,
+      "id": "e212"
+    },
+    {
+      "source": "TMB",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: TMB or not TMB as a biomarker: That is the question.. Immune checkpoint inhibitors (ICIs) have revolutionized the landscape of therapeutic options for many cancers. These treatments have demonstrated ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e213"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "NF1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: A case of dramatic reduction in cancer-associated thrombus following initiation of pembrolizumab in patient with a poor performance status and PD-L1. Pembrolizumab is a standard treatment for non-smal...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e214"
+    },
+    {
+      "source": "cyclophosphamide",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Refractory Bullous Pemphigoid in a Patient with Metastatic Lung Adenocarcinoma Treated with Pembrolizumab.. We present the case of a 73-year-old male patient with a history of tobacco use who presente...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e215"
+    },
+    {
+      "source": "cyclophosphamide",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Refractory Bullous Pemphigoid in a Patient with Metastatic Lung Adenocarcinoma Treated with Pembrolizumab.. We present the case of a 73-year-old male patient with a history of tobacco use who presente...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e216"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "trastuzumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e217"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "osimertinib",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e218"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "trastuzumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e219"
+    },
+    {
+      "source": "nivolumab",
+      "target": "trastuzumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e220"
+    },
+    {
+      "source": "osimertinib",
+      "target": "trastuzumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e221"
+    },
+    {
+      "source": "pembrolizumab",
+      "target": "trastuzumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e222"
+    },
+    {
+      "source": "atezolizumab",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e223"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e224"
+    },
+    {
+      "source": "nivolumab",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e225"
+    },
+    {
+      "source": "osimertinib",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e226"
+    },
+    {
+      "source": "trastuzumab",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e227"
+    },
+    {
+      "source": "trastuzumab",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: ASCO 2020 non-small lung cancer (NSCLC) personal highlights.. In this article we summarize our personal non-small cell lung cancer (NSCLC) highlights of the virtual ASCO 2020 meeting, covering develop...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e228"
+    },
+    {
+      "source": "docetaxel",
+      "target": "erlotinib",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e229"
+    },
+    {
+      "source": "erlotinib",
+      "target": "ipilimumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e230"
+    },
+    {
+      "source": "erlotinib",
+      "target": "nivolumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e231"
+    },
+    {
+      "source": "docetaxel",
+      "target": "PIK3CA",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e232"
+    },
+    {
+      "source": "erlotinib",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e233"
+    },
+    {
+      "source": "erlotinib",
+      "target": "PIK3CA",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e234"
+    },
+    {
+      "source": "ipilimumab",
+      "target": "PIK3CA",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e235"
+    },
+    {
+      "source": "nivolumab",
+      "target": "PIK3CA",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e236"
+    },
+    {
+      "source": "PIK3CA",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomarker-driven therapies for previously treated squamous non-small-cell lung cancer (Lung-MAP SWOG S1400): a biomarker-driven master protocol.. The Lung Cancer Master Protocol (Lung-MAP; S1400) is a...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e237"
+    },
+    {
+      "source": "carboplatin",
+      "target": "BRAF",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab plus platinum-based chemotherapy for unfavorable cancer of unknown primary site: Case report.. We report a case of sustained complete response in unfavorable cancer of unknown primary si...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e238"
+    },
+    {
+      "source": "cisplatin",
+      "target": "BRAF",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab plus platinum-based chemotherapy for unfavorable cancer of unknown primary site: Case report.. We report a case of sustained complete response in unfavorable cancer of unknown primary si...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e239"
+    },
+    {
+      "source": "cisplatin",
+      "target": "ROS1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Pembrolizumab plus platinum-based chemotherapy for unfavorable cancer of unknown primary site: Case report.. We report a case of sustained complete response in unfavorable cancer of unknown primary si...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e240"
+    },
+    {
+      "source": "paclitaxel",
+      "target": "trastuzumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Basket Study of Neratinib in Participants With Solid Tumors Harboring Somatic HER2 or EGFR Exon 18 Mutations. This is an open-label, multicenter, multinational, Phase 2 basket study exploring the effi...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e241"
+    },
+    {
+      "source": "paclitaxel",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Basket Study of Neratinib in Participants With Solid Tumors Harboring Somatic HER2 or EGFR Exon 18 Mutations. This is an open-label, multicenter, multinational, Phase 2 basket study exploring the effi...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e242"
+    },
+    {
+      "source": "carboplatin",
+      "target": "paclitaxel",
+      "type": "drug_synergy",
+      "evidence": "Pattern match ((?:combination|co[\\s-]?administration)\\s+of\\s+(?P<drug1>\\w+)\\s+and\\s+(?P<drug2>\\w+)): combination of carboplatin and paclitaxel) and radiation in patients with lung cancer.\n\nYou...",
+      "source_type": "pattern",
+      "score": 0.8,
+      "id": "e243"
+    },
+    {
+      "source": "carboplatin",
+      "target": "paclitaxel",
+      "type": "drug_combination_regimen",
+      "evidence": "combination of carboplatin and paclitaxel) and radiation in patients with lung cancer.\n\nYou are being asked to take part in this study becaus",
+      "source_type": "pattern",
+      "score": 0.9,
+      "id": "e244"
+    },
+    {
+      "source": "carboplatin",
+      "target": "HER2",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Beamion LUNG-2: A Study to Test Whether Zongertinib (BI 1810631) Helps People With Advanced Non-small Cell Lung Cancer With HER2 Mutations Compared With Standard Treatment. This study is open to adult...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e245"
+    },
+    {
+      "source": "lung cancer",
+      "target": "her2",
+      "type": "biomarker_cancer",
+      "evidence": "Pattern match ((?P<cancer>\\w+\\s+cancer)\\s+with\\s+(?P<biomarker>\\w+)\\s+(?:mutation|amplification)): Lung Cancer With HER2 Mutations Compared With Standard Treatment. This study is ...",
+      "source_type": "pattern",
+      "score": 0.8,
+      "id": "e246"
+    },
+    {
+      "source": "AR",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Standard Therapy With or Without Dalteparin in Treating Patients With Advanced Breast, Lung, Colorectal, or Prostate Cancer. RATIONALE: Dalteparin may be effective in inhibiting the growth of blood ve...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e247"
+    },
+    {
+      "source": "ER",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Standard Therapy With or Without Dalteparin in Treating Patients With Advanced Breast, Lung, Colorectal, or Prostate Cancer. RATIONALE: Dalteparin may be effective in inhibiting the growth of blood ve...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e248"
+    },
+    {
+      "source": "MET",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Standard Therapy With or Without Dalteparin in Treating Patients With Advanced Breast, Lung, Colorectal, or Prostate Cancer. RATIONALE: Dalteparin may be effective in inhibiting the growth of blood ve...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e249"
+    },
+    {
+      "source": "PR",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Standard Therapy With or Without Dalteparin in Treating Patients With Advanced Breast, Lung, Colorectal, or Prostate Cancer. RATIONALE: Dalteparin may be effective in inhibiting the growth of blood ve...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e250"
+    },
+    {
+      "source": "BRAF",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: XP-102 and XP-102 in Combination With Trametinib in Advanced Solid Tumor Patients With a BRAF V600 Mutation. This is a first-in-human multi-center study which will be conducted in advanced malignant s...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e251"
+    },
+    {
+      "source": "ER",
+      "target": "pancreatic cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study of Covalent Menin Inhibitor BMF-219 in Adult Patients With KRAS Driven Non-Small Cell Lung Cancer, Pancreatic Cancer, and Colorectal Cancer. A Phase 1/1b dose finding study to determine the OBD(...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e252"
+    },
+    {
+      "source": "KRAS",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study of Covalent Menin Inhibitor BMF-219 in Adult Patients With KRAS Driven Non-Small Cell Lung Cancer, Pancreatic Cancer, and Colorectal Cancer. A Phase 1/1b dose finding study to determine the OBD(...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e253"
+    },
+    {
+      "source": "KRAS",
+      "target": "pancreatic cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study of Covalent Menin Inhibitor BMF-219 in Adult Patients With KRAS Driven Non-Small Cell Lung Cancer, Pancreatic Cancer, and Colorectal Cancer. A Phase 1/1b dose finding study to determine the OBD(...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e254"
+    },
+    {
+      "source": "MET",
+      "target": "pancreatic cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Study of Covalent Menin Inhibitor BMF-219 in Adult Patients With KRAS Driven Non-Small Cell Lung Cancer, Pancreatic Cancer, and Colorectal Cancer. A Phase 1/1b dose finding study to determine the OBD(...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e255"
+    },
+    {
+      "source": "erlotinib",
+      "target": "pembrolizumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Brazilian Lung Immunotherapy Study. Immunotherapy with anti-PD-1/PD-L1 agents either as single agents or combined with chemotherapy is now considered the standard of care for patients with non-small-c...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e256"
+    },
+    {
+      "source": "erlotinib",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Brazilian Lung Immunotherapy Study. Immunotherapy with anti-PD-1/PD-L1 agents either as single agents or combined with chemotherapy is now considered the standard of care for patients with non-small-c...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e257"
+    },
+    {
+      "source": "cyclophosphamide",
+      "target": "KRAS",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Autologous T-cells Genetically Engineered to Express Receptors Reactive Against KRAS Mutations in Conjunction With a Vaccine Directed Against These Antigens in Participants With Metastatic Cancer. Bac...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e258"
+    },
+    {
+      "source": "carboplatin",
+      "target": "trastuzumab",
+      "type": "drug_drug_cooccurrence",
+      "evidence": "Co-occurrence in text: Interleukin-12 and Trastuzumab in Treating Patients With Cancer That Has High Levels of HER2/Neu. Interleukin-12 may kill tumor cells by stopping blood flow to the tumor and by stimulating a person's ...",
+      "source_type": "cooccurrence",
+      "score": 0.5,
+      "id": "e259"
+    },
+    {
+      "source": "osimertinib",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: High-dose Furmonertinib in the Treatment in Patients With Advanced, Metastatic NSCLC With Progressed After First- or Second-line Treatment With Osimertinib. This is a prospective, randomised, uncontro...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e260"
+    },
+    {
+      "source": "paclitaxel",
+      "target": "BRAF",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: A Phase 1/2a Study of IMM-1-104 in Participants With Advanced or Metastatic Solid Tumors. This is an open-label, dose-exploration and expansion study to determine the safety, tolerability, pharmacokin...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e261"
+    },
+    {
+      "source": "MSI",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab (Opdivo\u00ae) Plus ABI-009 (Nab-rapamycin) for Advanced Sarcoma and Certain Cancers. This study investigates the safety/toxicity and potential anti-tumor activity of sequential administration of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e262"
+    },
+    {
+      "source": "MSI",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab (Opdivo\u00ae) Plus ABI-009 (Nab-rapamycin) for Advanced Sarcoma and Certain Cancers. This study investigates the safety/toxicity and potential anti-tumor activity of sequential administration of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e263"
+    },
+    {
+      "source": "MSI",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab (Opdivo\u00ae) Plus ABI-009 (Nab-rapamycin) for Advanced Sarcoma and Certain Cancers. This study investigates the safety/toxicity and potential anti-tumor activity of sequential administration of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e264"
+    },
+    {
+      "source": "MSI",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab (Opdivo\u00ae) Plus ABI-009 (Nab-rapamycin) for Advanced Sarcoma and Certain Cancers. This study investigates the safety/toxicity and potential anti-tumor activity of sequential administration of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e265"
+    },
+    {
+      "source": "MSI",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab (Opdivo\u00ae) Plus ABI-009 (Nab-rapamycin) for Advanced Sarcoma and Certain Cancers. This study investigates the safety/toxicity and potential anti-tumor activity of sequential administration of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e266"
+    },
+    {
+      "source": "MSI",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Nivolumab (Opdivo\u00ae) Plus ABI-009 (Nab-rapamycin) for Advanced Sarcoma and Certain Cancers. This study investigates the safety/toxicity and potential anti-tumor activity of sequential administration of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e267"
+    }
+  ]
+}

@@ -1,0 +1,1126 @@
+{
+  "nodes": [
+    {
+      "id": "n29",
+      "label": "docetaxel",
+      "type": "drug",
+      "category": "chemotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n11",
+      "label": "lung cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n14",
+      "label": "erlotinib",
+      "type": "drug",
+      "category": "targeted therapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n12",
+      "label": "non-small cell lung cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n33",
+      "label": "KRAS",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n26",
+      "label": "leukemia",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n4",
+      "label": "PR",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n2",
+      "label": "ER",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n32",
+      "label": "gefitinib",
+      "type": "drug",
+      "category": "targeted therapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n31",
+      "label": "ROS1",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n5",
+      "label": "melanoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n24",
+      "label": "colorectal cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n9",
+      "label": "cisplatin",
+      "type": "drug",
+      "category": "chemotherapy",
+      "color": "#1f77b4"
+    },
+    {
+      "id": "n15",
+      "label": "prostate cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n1",
+      "label": "breast cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n17",
+      "label": "gastric cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n19",
+      "label": "ovarian cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n3",
+      "label": "MET",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n22",
+      "label": "hepatocellular carcinoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n20",
+      "label": "renal cell carcinoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n28",
+      "label": "TP53",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n8",
+      "label": "cervical cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n25",
+      "label": "pancreatic cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n16",
+      "label": "TMB",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n30",
+      "label": "ALK",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n21",
+      "label": "PTEN",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n0",
+      "label": "AR",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n7",
+      "label": "RET",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n18",
+      "label": "HER2",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n23",
+      "label": "lymphoma",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n10",
+      "label": "bladder cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    },
+    {
+      "id": "n6",
+      "label": "EGFR",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n13",
+      "label": "PD-L1",
+      "type": "biomarker",
+      "category": "",
+      "color": "#2ca02c"
+    },
+    {
+      "id": "n27",
+      "label": "endometrial cancer",
+      "type": "cancer_type",
+      "category": "",
+      "color": "#d62728"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AR",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Melatonin enhances everolimus efficacy in breast cancer by suppressing mTOR pathway activation and promoting apoptosis and mitochondrial function.. Everolimus is used in the treatment of breast cancer...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e0"
+    },
+    {
+      "source": "ER",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Melatonin enhances everolimus efficacy in breast cancer by suppressing mTOR pathway activation and promoting apoptosis and mitochondrial function.. Everolimus is used in the treatment of breast cancer...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e1"
+    },
+    {
+      "source": "MET",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Melatonin enhances everolimus efficacy in breast cancer by suppressing mTOR pathway activation and promoting apoptosis and mitochondrial function.. Everolimus is used in the treatment of breast cancer...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e2"
+    },
+    {
+      "source": "PR",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Melatonin enhances everolimus efficacy in breast cancer by suppressing mTOR pathway activation and promoting apoptosis and mitochondrial function.. Everolimus is used in the treatment of breast cancer...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e3"
+    },
+    {
+      "source": "AR",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Protein tyrosine phosphatase receptor type kappa (PTPRK) revisited: evolving insights into structure, function, and pathology.. Protein Tyrosine Phosphatase Receptor Type Kappa (PTPRK) is a membrane-b...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e4"
+    },
+    {
+      "source": "EGFR",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Protein tyrosine phosphatase receptor type kappa (PTPRK) revisited: evolving insights into structure, function, and pathology.. Protein Tyrosine Phosphatase Receptor Type Kappa (PTPRK) is a membrane-b...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e5"
+    },
+    {
+      "source": "ER",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Protein tyrosine phosphatase receptor type kappa (PTPRK) revisited: evolving insights into structure, function, and pathology.. Protein Tyrosine Phosphatase Receptor Type Kappa (PTPRK) is a membrane-b...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e6"
+    },
+    {
+      "source": "MET",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Protein tyrosine phosphatase receptor type kappa (PTPRK) revisited: evolving insights into structure, function, and pathology.. Protein Tyrosine Phosphatase Receptor Type Kappa (PTPRK) is a membrane-b...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e7"
+    },
+    {
+      "source": "PR",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Protein tyrosine phosphatase receptor type kappa (PTPRK) revisited: evolving insights into structure, function, and pathology.. Protein Tyrosine Phosphatase Receptor Type Kappa (PTPRK) is a membrane-b...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e8"
+    },
+    {
+      "source": "RET",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Protein tyrosine phosphatase receptor type kappa (PTPRK) revisited: evolving insights into structure, function, and pathology.. Protein Tyrosine Phosphatase Receptor Type Kappa (PTPRK) is a membrane-b...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e9"
+    },
+    {
+      "source": "AR",
+      "target": "cervical cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Unlocking the potential of immune checkpoint inhibitors in advanced cervical cancer: a meta-analysis and systematic review.. This meta-analysis systematically evaluated the effectiveness and safety of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e10"
+    },
+    {
+      "source": "ER",
+      "target": "cervical cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Unlocking the potential of immune checkpoint inhibitors in advanced cervical cancer: a meta-analysis and systematic review.. This meta-analysis systematically evaluated the effectiveness and safety of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e11"
+    },
+    {
+      "source": "MET",
+      "target": "cervical cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Unlocking the potential of immune checkpoint inhibitors in advanced cervical cancer: a meta-analysis and systematic review.. This meta-analysis systematically evaluated the effectiveness and safety of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e12"
+    },
+    {
+      "source": "PR",
+      "target": "cervical cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Unlocking the potential of immune checkpoint inhibitors in advanced cervical cancer: a meta-analysis and systematic review.. This meta-analysis systematically evaluated the effectiveness and safety of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e13"
+    },
+    {
+      "source": "cisplatin",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Characteristics, management and survival outcomes in patients with muscle-invasive bladder cancer at high risk of recurrence in France: a subgroup analysis from the coblance cohort.. To describe chara...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e14"
+    },
+    {
+      "source": "AR",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Characteristics, management and survival outcomes in patients with muscle-invasive bladder cancer at high risk of recurrence in France: a subgroup analysis from the coblance cohort.. To describe chara...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e15"
+    },
+    {
+      "source": "ER",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Characteristics, management and survival outcomes in patients with muscle-invasive bladder cancer at high risk of recurrence in France: a subgroup analysis from the coblance cohort.. To describe chara...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e16"
+    },
+    {
+      "source": "MET",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Characteristics, management and survival outcomes in patients with muscle-invasive bladder cancer at high risk of recurrence in France: a subgroup analysis from the coblance cohort.. To describe chara...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e17"
+    },
+    {
+      "source": "PR",
+      "target": "bladder cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Characteristics, management and survival outcomes in patients with muscle-invasive bladder cancer at high risk of recurrence in France: a subgroup analysis from the coblance cohort.. To describe chara...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e18"
+    },
+    {
+      "source": "AR",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e19"
+    },
+    {
+      "source": "AR",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e20"
+    },
+    {
+      "source": "ER",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e21"
+    },
+    {
+      "source": "ER",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e22"
+    },
+    {
+      "source": "PD-L1",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e23"
+    },
+    {
+      "source": "PD-L1",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e24"
+    },
+    {
+      "source": "PR",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e25"
+    },
+    {
+      "source": "PR",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e26"
+    },
+    {
+      "source": "RET",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e27"
+    },
+    {
+      "source": "RET",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Safety and efficacy of rechallenge with immune checkpoint inhibitors and anlotinib in advanced non-small cell lung cancer without targetable driver mutations: a retrospective analysis.. This study ass...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e28"
+    },
+    {
+      "source": "erlotinib",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of a machine learning-based predictive risk model combining fatty acid metabolism and ferroptosis for immunotherapy response and prognosis in prostate cancer.. Prostate cancer (PCa) remain...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e29"
+    },
+    {
+      "source": "AR",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of a machine learning-based predictive risk model combining fatty acid metabolism and ferroptosis for immunotherapy response and prognosis in prostate cancer.. Prostate cancer (PCa) remain...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e30"
+    },
+    {
+      "source": "ER",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of a machine learning-based predictive risk model combining fatty acid metabolism and ferroptosis for immunotherapy response and prognosis in prostate cancer.. Prostate cancer (PCa) remain...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e31"
+    },
+    {
+      "source": "MET",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of a machine learning-based predictive risk model combining fatty acid metabolism and ferroptosis for immunotherapy response and prognosis in prostate cancer.. Prostate cancer (PCa) remain...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e32"
+    },
+    {
+      "source": "PR",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of a machine learning-based predictive risk model combining fatty acid metabolism and ferroptosis for immunotherapy response and prognosis in prostate cancer.. Prostate cancer (PCa) remain...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e33"
+    },
+    {
+      "source": "TMB",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Development of a machine learning-based predictive risk model combining fatty acid metabolism and ferroptosis for immunotherapy response and prognosis in prostate cancer.. Prostate cancer (PCa) remain...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e34"
+    },
+    {
+      "source": "AR",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Tumor microenvironment modulation by SERPINE1 increases radioimmunotherapy in murine model of gastric cancer.. An elevated extracellular matrix (ECM) and interstitial fluid pressure (IFP) in gastric c...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e35"
+    },
+    {
+      "source": "ER",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Tumor microenvironment modulation by SERPINE1 increases radioimmunotherapy in murine model of gastric cancer.. An elevated extracellular matrix (ECM) and interstitial fluid pressure (IFP) in gastric c...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e36"
+    },
+    {
+      "source": "HER2",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Tumor microenvironment modulation by SERPINE1 increases radioimmunotherapy in murine model of gastric cancer.. An elevated extracellular matrix (ECM) and interstitial fluid pressure (IFP) in gastric c...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e37"
+    },
+    {
+      "source": "PR",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Tumor microenvironment modulation by SERPINE1 increases radioimmunotherapy in murine model of gastric cancer.. An elevated extracellular matrix (ECM) and interstitial fluid pressure (IFP) in gastric c...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e38"
+    },
+    {
+      "source": "AR",
+      "target": "ovarian cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Inhibitors of eIF1A-ribosome interaction unveil uORF-dependent regulation of translation initiation and antitumor and antiviral effects.. During translation initiation, eIF1A binds the ribosome throug...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e39"
+    },
+    {
+      "source": "ER",
+      "target": "ovarian cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Inhibitors of eIF1A-ribosome interaction unveil uORF-dependent regulation of translation initiation and antitumor and antiviral effects.. During translation initiation, eIF1A binds the ribosome throug...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e40"
+    },
+    {
+      "source": "PR",
+      "target": "ovarian cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Inhibitors of eIF1A-ribosome interaction unveil uORF-dependent regulation of translation initiation and antitumor and antiviral effects.. During translation initiation, eIF1A binds the ribosome throug...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e41"
+    },
+    {
+      "source": "AR",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Comprehensive molecular profiling of FH-deficient renal cell carcinoma identifies molecular subtypes and potential therapeutic targets.. Fumarate hydratase-deficient renal cell carcinoma (FH-deficient...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e42"
+    },
+    {
+      "source": "ER",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Comprehensive molecular profiling of FH-deficient renal cell carcinoma identifies molecular subtypes and potential therapeutic targets.. Fumarate hydratase-deficient renal cell carcinoma (FH-deficient...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e43"
+    },
+    {
+      "source": "MET",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Comprehensive molecular profiling of FH-deficient renal cell carcinoma identifies molecular subtypes and potential therapeutic targets.. Fumarate hydratase-deficient renal cell carcinoma (FH-deficient...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e44"
+    },
+    {
+      "source": "PR",
+      "target": "renal cell carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Comprehensive molecular profiling of FH-deficient renal cell carcinoma identifies molecular subtypes and potential therapeutic targets.. Fumarate hydratase-deficient renal cell carcinoma (FH-deficient...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e45"
+    },
+    {
+      "source": "MET",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Associations between immune checkpoint inhibitor response, immune-related adverse events, and steroid use in RADIOHEAD: a prospective pan-tumor cohort study.. Immune checkpoint inhibitors (ICIs) have ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e46"
+    },
+    {
+      "source": "EGFR",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Network pharmacology study on the mechanism of Curcumae Rhizoma in the treatment of non-small cell lung cancer.. Non-small cell lung cancer (NSCLC) poses a significant threat to public health worldwid...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e47"
+    },
+    {
+      "source": "EGFR",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Network pharmacology study on the mechanism of Curcumae Rhizoma in the treatment of non-small cell lung cancer.. Non-small cell lung cancer (NSCLC) poses a significant threat to public health worldwid...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e48"
+    },
+    {
+      "source": "MET",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Network pharmacology study on the mechanism of Curcumae Rhizoma in the treatment of non-small cell lung cancer.. Non-small cell lung cancer (NSCLC) poses a significant threat to public health worldwid...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e49"
+    },
+    {
+      "source": "PTEN",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Network pharmacology study on the mechanism of Curcumae Rhizoma in the treatment of non-small cell lung cancer.. Non-small cell lung cancer (NSCLC) poses a significant threat to public health worldwid...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e50"
+    },
+    {
+      "source": "PTEN",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Network pharmacology study on the mechanism of Curcumae Rhizoma in the treatment of non-small cell lung cancer.. Non-small cell lung cancer (NSCLC) poses a significant threat to public health worldwid...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e51"
+    },
+    {
+      "source": "RET",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Impact of distinct insulin index on neoadjuvant treatment of breast cancer: A clinical retrospective study.. A combination of glucose and lipid metabolism, insulin resistance (IR) is correlated with t...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e52"
+    },
+    {
+      "source": "PD-L1",
+      "target": "melanoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Biomimetic liposomal nanovesicles remodel the tumor immune microenvironment to augment sono-immunotherapy.. Sonodynamic therapy (SDT)-mediated immunogenic cell death and immune checkpoint blockade off...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e53"
+    },
+    {
+      "source": "AR",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Proton beam therapy for mediastinal Hodgkin lymphoma: A prospective study of clinical efficacy and safety.. Proton beam therapy using pencil beam scanning is an advanced radiotherapy technique that ut...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e54"
+    },
+    {
+      "source": "AR",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Proton beam therapy for mediastinal Hodgkin lymphoma: A prospective study of clinical efficacy and safety.. Proton beam therapy using pencil beam scanning is an advanced radiotherapy technique that ut...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e55"
+    },
+    {
+      "source": "ER",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Proton beam therapy for mediastinal Hodgkin lymphoma: A prospective study of clinical efficacy and safety.. Proton beam therapy using pencil beam scanning is an advanced radiotherapy technique that ut...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e56"
+    },
+    {
+      "source": "ER",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Proton beam therapy for mediastinal Hodgkin lymphoma: A prospective study of clinical efficacy and safety.. Proton beam therapy using pencil beam scanning is an advanced radiotherapy technique that ut...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e57"
+    },
+    {
+      "source": "PR",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Proton beam therapy for mediastinal Hodgkin lymphoma: A prospective study of clinical efficacy and safety.. Proton beam therapy using pencil beam scanning is an advanced radiotherapy technique that ut...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e58"
+    },
+    {
+      "source": "PR",
+      "target": "lymphoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Proton beam therapy for mediastinal Hodgkin lymphoma: A prospective study of clinical efficacy and safety.. Proton beam therapy using pencil beam scanning is an advanced radiotherapy technique that ut...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e59"
+    },
+    {
+      "source": "MET",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Nervous system in hepatocellular carcinoma: Correlation, mechanisms, therapeutic implications, and future perspectives.. Hepatocellular carcinoma (HCC) is a highly heterogeneous and complex cancer inf...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e60"
+    },
+    {
+      "source": "AR",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: LACTB promotes cell differentiation and inhibits cell proliferation in colorectal cancer.. This study aims at exploring the role of LACTB on colorectal cancer (CRC) cell differentiation. In this study...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e61"
+    },
+    {
+      "source": "ER",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: LACTB promotes cell differentiation and inhibits cell proliferation in colorectal cancer.. This study aims at exploring the role of LACTB on colorectal cancer (CRC) cell differentiation. In this study...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e62"
+    },
+    {
+      "source": "PR",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: LACTB promotes cell differentiation and inhibits cell proliferation in colorectal cancer.. This study aims at exploring the role of LACTB on colorectal cancer (CRC) cell differentiation. In this study...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e63"
+    },
+    {
+      "source": "AR",
+      "target": "pancreatic cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Molecular analysis highlights TREM2 as a discriminating biomarker for patients suffering from pancreatic ductal adenocarcinoma.. Pancreatic cancer is projected to become the second leading cause of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e64"
+    },
+    {
+      "source": "ER",
+      "target": "pancreatic cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Molecular analysis highlights TREM2 as a discriminating biomarker for patients suffering from pancreatic ductal adenocarcinoma.. Pancreatic cancer is projected to become the second leading cause of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e65"
+    },
+    {
+      "source": "MET",
+      "target": "pancreatic cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Molecular analysis highlights TREM2 as a discriminating biomarker for patients suffering from pancreatic ductal adenocarcinoma.. Pancreatic cancer is projected to become the second leading cause of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e66"
+    },
+    {
+      "source": "PR",
+      "target": "pancreatic cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Molecular analysis highlights TREM2 as a discriminating biomarker for patients suffering from pancreatic ductal adenocarcinoma.. Pancreatic cancer is projected to become the second leading cause of ca...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e67"
+    },
+    {
+      "source": "AR",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: A Machine Learning-Based Strategy Predicts Selective and Synergistic Drug Combinations for Relapsed Acute Myeloid Leukemia.. Combination therapies are one potential approach to improve the outcomes of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e68"
+    },
+    {
+      "source": "ER",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: A Machine Learning-Based Strategy Predicts Selective and Synergistic Drug Combinations for Relapsed Acute Myeloid Leukemia.. Combination therapies are one potential approach to improve the outcomes of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e69"
+    },
+    {
+      "source": "PR",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: A Machine Learning-Based Strategy Predicts Selective and Synergistic Drug Combinations for Relapsed Acute Myeloid Leukemia.. Combination therapies are one potential approach to improve the outcomes of...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e70"
+    },
+    {
+      "source": "AR",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Mitochondria-related genes as prognostic signature of endometrial cancer and the effect of MACC1 on tumor cells.. Mitochondria are essential organelles involved in cell metabolism and are closely link...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e71"
+    },
+    {
+      "source": "ER",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Mitochondria-related genes as prognostic signature of endometrial cancer and the effect of MACC1 on tumor cells.. Mitochondria are essential organelles involved in cell metabolism and are closely link...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e72"
+    },
+    {
+      "source": "MET",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Mitochondria-related genes as prognostic signature of endometrial cancer and the effect of MACC1 on tumor cells.. Mitochondria are essential organelles involved in cell metabolism and are closely link...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e73"
+    },
+    {
+      "source": "PR",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Mitochondria-related genes as prognostic signature of endometrial cancer and the effect of MACC1 on tumor cells.. Mitochondria are essential organelles involved in cell metabolism and are closely link...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e74"
+    },
+    {
+      "source": "RET",
+      "target": "endometrial cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Mitochondria-related genes as prognostic signature of endometrial cancer and the effect of MACC1 on tumor cells.. Mitochondria are essential organelles involved in cell metabolism and are closely link...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e75"
+    },
+    {
+      "source": "RET",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Somatic Tumor Next-Generation Sequencing in US Veterans With Metastatic Prostate Cancer.. National guidelines recommend next-generation sequencing (NGS) of tumors in patients diagnosed with metastatic...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e76"
+    },
+    {
+      "source": "TP53",
+      "target": "prostate cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Somatic Tumor Next-Generation Sequencing in US Veterans With Metastatic Prostate Cancer.. National guidelines recommend next-generation sequencing (NGS) of tumors in patients diagnosed with metastatic...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e77"
+    },
+    {
+      "source": "docetaxel",
+      "target": "ALK",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Anlotinib Plus Docetaxel is Promising in Advanced NSCLC Progressing on First-Line Immunotherapy: A Pooled Analysis of Two Randomized Trials.. Therapeutic options for patients with advanced non-small c...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e78"
+    },
+    {
+      "source": "docetaxel",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Anlotinib Plus Docetaxel is Promising in Advanced NSCLC Progressing on First-Line Immunotherapy: A Pooled Analysis of Two Randomized Trials.. Therapeutic options for patients with advanced non-small c...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e79"
+    },
+    {
+      "source": "docetaxel",
+      "target": "ROS1",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: Anlotinib Plus Docetaxel is Promising in Advanced NSCLC Progressing on First-Line Immunotherapy: A Pooled Analysis of Two Randomized Trials.. Therapeutic options for patients with advanced non-small c...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e80"
+    },
+    {
+      "source": "ALK",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Anlotinib Plus Docetaxel is Promising in Advanced NSCLC Progressing on First-Line Immunotherapy: A Pooled Analysis of Two Randomized Trials.. Therapeutic options for patients with advanced non-small c...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e81"
+    },
+    {
+      "source": "ALK",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Anlotinib Plus Docetaxel is Promising in Advanced NSCLC Progressing on First-Line Immunotherapy: A Pooled Analysis of Two Randomized Trials.. Therapeutic options for patients with advanced non-small c...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e82"
+    },
+    {
+      "source": "ROS1",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Anlotinib Plus Docetaxel is Promising in Advanced NSCLC Progressing on First-Line Immunotherapy: A Pooled Analysis of Two Randomized Trials.. Therapeutic options for patients with advanced non-small c...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e83"
+    },
+    {
+      "source": "ROS1",
+      "target": "non-small cell lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Anlotinib Plus Docetaxel is Promising in Advanced NSCLC Progressing on First-Line Immunotherapy: A Pooled Analysis of Two Randomized Trials.. Therapeutic options for patients with advanced non-small c...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e84"
+    },
+    {
+      "source": "TMB",
+      "target": "ovarian cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Construction of a novel CD8T cell-related index for predicting clinical outcomes and immune landscape in ovarian cancer by combined single-cell and RNA-sequencing analysis.. CD8T cells, also known as ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e85"
+    },
+    {
+      "source": "HER2",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Proton therapy in young breast cancer patients with germline TP53 and ATM mutations: a\u00a0case series.. Young breast cancer patients with germline radiosensitivity mutations, such as in TP53 and ATM, fac...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e86"
+    },
+    {
+      "source": "TP53",
+      "target": "breast cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Proton therapy in young breast cancer patients with germline TP53 and ATM mutations: a\u00a0case series.. Young breast cancer patients with germline radiosensitivity mutations, such as in TP53 and ATM, fac...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e87"
+    },
+    {
+      "source": "RET",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Sitravatinib targets TYRO3 to augment the anti-tumor immune response of PD-1 blockade in hepatocellular carcinoma.. Tyrosine kinase inhibitors (TKIs) combined with immune checkpoint blockades (ICBs) p...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e88"
+    },
+    {
+      "source": "gefitinib",
+      "target": "EGFR",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: EIF4E promotes gefitinib resistance in non-small cell lung cancer by activating the Wnt/\u03b2-catenin pathway.. Tyrosine kinase inhibitors (TKIs) like gefitinib, which target the epidermal growth factor r...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e89"
+    },
+    {
+      "source": "gefitinib",
+      "target": "MET",
+      "type": "drug_gene_cooccurrence",
+      "evidence": "Co-occurrence in text: EIF4E promotes gefitinib resistance in non-small cell lung cancer by activating the Wnt/\u03b2-catenin pathway.. Tyrosine kinase inhibitors (TKIs) like gefitinib, which target the epidermal growth factor r...",
+      "source_type": "cooccurrence",
+      "score": 0.6,
+      "id": "e90"
+    },
+    {
+      "source": "MET",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Clinical experience and safety of venetoclax in the treatment of patients with chronic lymphocytic leukemia - real-world data from a hemato-oncology center.. The treatment of patients with CLL has und...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e91"
+    },
+    {
+      "source": "RET",
+      "target": "leukemia",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Clinical experience and safety of venetoclax in the treatment of patients with chronic lymphocytic leukemia - real-world data from a hemato-oncology center.. The treatment of patients with CLL has und...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e92"
+    },
+    {
+      "source": "MET",
+      "target": "gastric cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Prognostic Implications and Therapeutic Potential of MXD Genes in Gastric Cancer.. MAX dimerization (MXD) genes play integral roles in various types of tumors. The expression patterns, prognostic valu...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e93"
+    },
+    {
+      "source": "PD-L1",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Oncolytic reovirus enhances the effect of CEA immunotherapy when combined with PD1-PDL1 inhibitor in a colorectal cancer model.. The effectiveness of immunotherapy with tumor associated antigen vaccin...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e94"
+    },
+    {
+      "source": "RET",
+      "target": "colorectal cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Oncolytic reovirus enhances the effect of CEA immunotherapy when combined with PD1-PDL1 inhibitor in a colorectal cancer model.. The effectiveness of immunotherapy with tumor associated antigen vaccin...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e95"
+    },
+    {
+      "source": "PD-L1",
+      "target": "hepatocellular carcinoma",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Targeted activation of junctional adhesion molecule-like protein. Cytotoxic T lymphocytes (CTLs) play a crucial role in the therapeutic approach to hepatocellular carcinoma (HCC). Recent research has ...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e96"
+    },
+    {
+      "source": "KRAS",
+      "target": "lung cancer",
+      "type": "biomarker_cancer_cooccurrence",
+      "evidence": "Co-occurrence in text: Epigenomic analysis identifies DTP subpopulation using HOPX to develop targeted therapy resistance in lung adenocarcinoma.. Genomic studies have identified oncogenic drivers in lung cancer, enabling e...",
+      "source_type": "cooccurrence",
+      "score": 0.7,
+      "id": "e97"
+    }
+  ]
+}

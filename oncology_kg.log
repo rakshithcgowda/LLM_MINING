@@ -1,0 +1,8 @@
+2025-05-13 10:15:41,262 - __main__ - INFO - Successfully loaded NLP model: en_core_sci_sm
+2025-05-13 10:16:26,273 - __main__ - INFO - Successfully loaded NLP model: en_core_sci_sm
+2025-05-13 10:17:04,313 - __main__ - INFO - Successfully loaded NLP model: en_core_sci_sm
+2025-05-13 10:17:04,379 - __main__ - INFO - Initializing Oncology Knowledge Graph...
+2025-05-13 10:18:07,466 - __main__ - INFO - Knowledge graph initialized with 13 nodes and 689 edges
+2025-05-13 10:18:46,367 - __main__ - INFO - Successfully loaded NLP model: en_core_sci_sm
+2025-05-13 10:18:46,421 - __main__ - INFO - Initializing Oncology Knowledge Graph...
+2025-05-13 10:19:52,496 - __main__ - INFO - Knowledge graph initialized with 13 nodes and 689 edges
