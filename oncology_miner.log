@@ -1896,3 +1896,31 @@ Processing 100 articles...
 2025-05-13 16:24:56,213 - INFO - Processing article 1/100: Favorable 99mTc-FAPI-46 Uptake in Primary Mucinous...
 2025-05-13 16:25:01,540 - INFO - 
 Knowledge graph built with 36 nodes and 101 edges.
+2025-05-13 17:01:49,048 - INFO - Initializing NLP model...
+2025-05-13 17:01:49,911 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 17:01:49,911 - INFO - Using cache directory: ./data_cache
+2025-05-13 17:01:49,913 - INFO - Initializing NLP model...
+2025-05-13 17:01:50,385 - INFO - Loaded en_core_sci_sm model successfully.
+2025-05-13 17:01:50,385 - INFO - Using cache directory: ./data_cache
+2025-05-13 17:01:52,202 - INFO - 
+==================================================
+2025-05-13 17:01:52,202 - INFO - Initializing OncologyLiteratureMiner Pipeline
+2025-05-13 17:01:52,202 - INFO - ==================================================
+2025-05-13 17:01:52,202 - INFO - LiteratureCollector initialized.
+2025-05-13 17:01:52,202 - INFO - Initializing TextProcessor with oncology dictionaries...
+2025-05-13 17:01:52,202 - INFO - Loaded 20 cancer types, 20 drugs, 24 biomarkers, 23 genes, 11 mutations
+2025-05-13 17:01:52,207 - INFO - Initialized RelationshipExtractor with 5 relationship types
+2025-05-13 17:01:52,207 - INFO - Initialized empty KnowledgeGraph
+2025-05-13 17:01:52,207 - INFO - Pipeline components initialized successfully.
+2025-05-13 17:02:07,903 - INFO - 
+==================================================
+2025-05-13 17:02:07,904 - INFO - Starting PubMed Pipeline
+2025-05-13 17:02:07,904 - INFO - ==================================================
+2025-05-13 17:02:07,905 - INFO - Searching PubMed for: 'cancer AND (immunotherapy OR targeted therapy)'
+2025-05-13 17:02:09,648 - INFO - Found 100 articles. Fetching details...
+2025-05-13 17:02:11,647 - INFO - Cached 100 articles to ./data_cache\pubmed_5562057051665903652.json
+2025-05-13 17:02:11,647 - INFO - 
+Processing 100 articles...
+2025-05-13 17:02:11,656 - INFO - Processing article 1/100: Favorable 99mTc-FAPI-46 Uptake in Primary Mucinous...
+2025-05-13 17:02:16,931 - INFO - 
+Knowledge graph built with 36 nodes and 101 edges.
