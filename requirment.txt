@@ -1,0 +1,9 @@
+requests
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+networkx
+lxml  # needed for some XML parsing in ElementTree if used beyond basic
+spacy

@@ -2,7 +2,7 @@
 import requests
 import pandas as pd
 import numpy as np
-# import spacy
+import spacy
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
